@@ -1,0 +1,22 @@
+{
+ "id": "hand",
+ "term": "Hand",
+ "version": "v5",
+ "kind": "zone",
+ "definition": "Cards you hold. Start with 5, draw 2 per turn, keep at most 7.",
+ "window": "Always; Interrupt cards in hand can be used on the opponent's turn.",
+ "does": "Holds options, including a Shade ready to Interrupt.",
+ "does_not": "Scores nothing.",
+ "contrast": {
+  "line": "Hand cards have done nothing yet; Line cards have resolved."
+ },
+ "interacts": [
+  "draw",
+  "discard",
+  "interrupt"
+ ],
+ "precedence": null,
+ "source": "game.md, Turn 1-2",
+ "phase": null,
+ "cards": []
+}

@@ -1,0 +1,38 @@
+{
+ "id": "shade",
+ "term": "Shade",
+ "version": "v5",
+ "kind": "type",
+ "definition": "Shade: effect ward, timing interrupt.",
+ "window": "See its keyword and timing.",
+ "does": "Groups cards by first motif.",
+ "does_not": "Type is not suit; a type spans suits.",
+ "contrast": {
+  "timing": "Type is the effect family; timing is when it acts."
+ },
+ "interacts": [
+  "ward",
+  "interrupt"
+ ],
+ "precedence": null,
+ "source": "rules.TYPE_OF_MOTIF",
+ "phase": null,
+ "cards": [
+  17,
+  18,
+  26,
+  33,
+  50,
+  51,
+  70,
+  77,
+  88,
+  90,
+  92
+ ],
+ "sim": {
+  "cards": 11,
+  "played": 10889,
+  "play_rate_pct": 59.7
+ }
+}

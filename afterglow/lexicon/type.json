@@ -1,0 +1,22 @@
+{
+ "id": "type",
+ "term": "Type",
+ "version": "v5",
+ "kind": "category",
+ "definition": "What a card does: Muse, Signal, Myth, Shade, Tide, Oddity, Sealed or Marker. Set by the tile's first motif.",
+ "window": "Always.",
+ "does": "Fixes the card's Glow, effect keyword and timing.",
+ "does_not": "Type is not suit and says nothing about chaining.",
+ "contrast": {
+  "suit": "Suit decides chaining; type decides the effect.",
+  "timing": "Type is the effect family; timing is when it acts."
+ },
+ "interacts": [
+  "timing",
+  "suit"
+ ],
+ "precedence": null,
+ "source": "rules.TYPE_OF_MOTIF",
+ "phase": null,
+ "cards": []
+}

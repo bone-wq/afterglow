@@ -1,0 +1,23 @@
+{
+ "id": "first_light",
+ "term": "First Light",
+ "version": "v5",
+ "kind": "marker",
+ "definition": "Tile 41. Not shuffled in; its holder goes first and the other player starts with 2 Glow.",
+ "window": "Setup only.",
+ "does": "Decides seat order.",
+ "does_not": "Is never played to a Line.",
+ "contrast": {
+  "unique": "It is Unique as one per game, not as a Line limit."
+ },
+ "interacts": [
+  "turn"
+ ],
+ "precedence": null,
+ "source": "rules.TEXT FIRST",
+ "phase": null,
+ "cards": [
+  41
+ ],
+ "sim": null
+}

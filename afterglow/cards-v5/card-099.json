@@ -1,0 +1,202 @@
+{
+ "id": {
+  "deck": "deck-001",
+  "tile": 99,
+  "name": "Rooftop Pair",
+  "sha256_16": "fc10b40d303368fb",
+  "version": "v5"
+ },
+ "play": {
+  "type": "Muse",
+  "suit": "Cel",
+  "glow": 2,
+  "effect": {
+   "keyword": "CHAIN",
+   "n": 2,
+   "target": "self: chain bonus",
+   "text": "If this chains, the chain bonus is +2 instead of +1."
+  },
+  "flavor": "The city below, the sky above.",
+  "in_line": true,
+  "timing": {
+   "key": "NORMAL",
+   "value": 0
+  },
+  "text": "If this chains, the chain bonus is +2 instead of +1."
+ },
+ "connections": {
+  "chain_in": {
+   "rule": "Cel or Wild",
+   "count": 20,
+   "from_tiles": [
+    8,
+    13,
+    22,
+    24,
+    32,
+    34,
+    35,
+    37,
+    39,
+    43,
+    52,
+    55,
+    62,
+    72,
+    73,
+    75,
+    84,
+    89,
+    94,
+    95
+   ]
+  },
+  "chain_out": {
+   "rule": "Cel or Wild",
+   "count": 20,
+   "into_tiles": [
+    8,
+    13,
+    22,
+    24,
+    32,
+    34,
+    35,
+    37,
+    39,
+    43,
+    52,
+    55,
+    62,
+    72,
+    73,
+    75,
+    84,
+    89,
+    94,
+    95
+   ]
+  },
+  "effect": {
+   "keyword": "CHAIN",
+   "n": 2,
+   "target": "self: chain bonus"
+  },
+  "data": {
+   "d1": {
+    "table": "deck_cards",
+    "key": {
+     "deck": "deck-001",
+     "tile": 99
+    }
+   },
+   "local": {
+    "card_json": "cards-v5/card-099.json",
+    "wireframe": "wireframes-v5/card-099.svg"
+   }
+  }
+ },
+ "stats": {
+  "deck": {
+   "suit_count": 16,
+   "type_count": 30,
+   "type_share_pct": 30.0,
+   "chain_odds_pct": 20.4
+  },
+  "glow_range": {
+   "min": 2,
+   "max": 4,
+   "opponent_swing": 0
+  },
+  "sim": {
+   "games": 5000,
+   "seed": 1,
+   "comp_glow": 2,
+   "drawn": 1630,
+   "played": 537,
+   "play_rate_pct": 32.9,
+   "win_when_played_pct": 52.3,
+   "chained_pct": 97.6,
+   "avg_glow_when_played": 3.95,
+   "discarded": 0,
+   "interrupts_made": 0,
+   "times_interrupted": 0
+  }
+ },
+ "layout": {
+  "card_px": [
+   274,
+   400
+  ],
+  "inner_px": [
+   38,
+   44,
+   236,
+   364
+  ],
+  "zones": [
+   {
+    "zone": "top",
+    "label": "name / glow",
+    "y": 44,
+    "h": 22
+   },
+   {
+    "zone": "art",
+    "label": "art 150px",
+    "y": 66,
+    "h": 150
+   },
+   {
+    "zone": "mid",
+    "label": "type / suit",
+    "y": 216,
+    "h": 18
+   },
+   {
+    "zone": "txt",
+    "label": "rule text",
+    "y": 234,
+    "h": 34
+   },
+   {
+    "zone": "fl",
+    "label": "flavor",
+    "y": 268,
+    "h": 80
+   },
+   {
+    "zone": "id",
+    "label": "tile / licence",
+    "y": 348,
+    "h": 16
+   }
+  ]
+ },
+ "rights": {
+  "sale": "ok",
+  "marks": []
+ },
+ "status": {
+  "sealed": false
+ },
+ "resolution": {
+  "order": [
+   "legality",
+   "placement",
+   "interrupt",
+   "resolve",
+   "stop_time",
+   "score"
+  ],
+  "interruptible": true,
+  "can_interrupt": false,
+  "legality": "none"
+ },
+ "lexicon": [
+  "lexicon/cel.json",
+  "lexicon/chain_keyword.json",
+  "lexicon/muse.json",
+  "lexicon/normal.json"
+ ]
+}

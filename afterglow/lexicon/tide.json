@@ -1,0 +1,37 @@
+{
+ "id": "tide",
+ "term": "Tide",
+ "version": "v5",
+ "kind": "type",
+ "definition": "Tide: effect dim, timing normal.",
+ "window": "See its keyword and timing.",
+ "does": "Groups cards by first motif.",
+ "does_not": "Type is not suit; a type spans suits.",
+ "contrast": {
+  "timing": "Type is the effect family; timing is when it acts."
+ },
+ "interacts": [
+  "dim",
+  "normal"
+ ],
+ "precedence": null,
+ "source": "rules.TYPE_OF_MOTIF",
+ "phase": null,
+ "cards": [
+  20,
+  29,
+  35,
+  44,
+  45,
+  56,
+  57,
+  59,
+  68,
+  73
+ ],
+ "sim": {
+  "cards": 10,
+  "played": 5521,
+  "play_rate_pct": 33.6
+ }
+}

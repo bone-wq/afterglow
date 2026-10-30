@@ -1,0 +1,202 @@
+{
+ "id": {
+  "deck": "deck-001",
+  "tile": 30,
+  "name": "Library Pixel",
+  "sha256_16": "34fe157fb072b760",
+  "version": "v5"
+ },
+ "play": {
+  "type": "Muse",
+  "suit": "Pixel",
+  "glow": 2,
+  "effect": {
+   "keyword": "CHAIN",
+   "n": 2,
+   "target": "self: chain bonus",
+   "text": "If this chains, the chain bonus is +2 instead of +1."
+  },
+  "flavor": "Eight bits of quiet study.",
+  "in_line": true,
+  "timing": {
+   "key": "NORMAL",
+   "value": 0
+  },
+  "text": "If this chains, the chain bonus is +2 instead of +1."
+ },
+ "connections": {
+  "chain_in": {
+   "rule": "Pixel or Wild",
+   "count": 19,
+   "from_tiles": [
+    6,
+    9,
+    10,
+    13,
+    18,
+    26,
+    36,
+    37,
+    42,
+    48,
+    50,
+    51,
+    52,
+    57,
+    59,
+    66,
+    75,
+    84,
+    85
+   ]
+  },
+  "chain_out": {
+   "rule": "Pixel or Wild",
+   "count": 19,
+   "into_tiles": [
+    6,
+    9,
+    10,
+    13,
+    18,
+    26,
+    36,
+    37,
+    42,
+    48,
+    50,
+    51,
+    52,
+    57,
+    59,
+    66,
+    75,
+    84,
+    85
+   ]
+  },
+  "effect": {
+   "keyword": "CHAIN",
+   "n": 2,
+   "target": "self: chain bonus"
+  },
+  "data": {
+   "d1": {
+    "table": "deck_cards",
+    "key": {
+     "deck": "deck-001",
+     "tile": 30
+    }
+   },
+   "local": {
+    "card_json": "cards-v5/card-030.json",
+    "wireframe": "wireframes-v5/card-030.svg"
+   }
+  }
+ },
+ "stats": {
+  "deck": {
+   "suit_count": 16,
+   "type_count": 30,
+   "type_share_pct": 30.0,
+   "chain_odds_pct": 19.4
+  },
+  "glow_range": {
+   "min": 2,
+   "max": 4,
+   "opponent_swing": 0
+  },
+  "sim": {
+   "games": 5000,
+   "seed": 1,
+   "comp_glow": 2,
+   "drawn": 1616,
+   "played": 807,
+   "play_rate_pct": 49.9,
+   "win_when_played_pct": 55.6,
+   "chained_pct": 98.8,
+   "avg_glow_when_played": 3.98,
+   "discarded": 0,
+   "interrupts_made": 0,
+   "times_interrupted": 0
+  }
+ },
+ "layout": {
+  "card_px": [
+   274,
+   400
+  ],
+  "inner_px": [
+   38,
+   44,
+   236,
+   364
+  ],
+  "zones": [
+   {
+    "zone": "top",
+    "label": "name / glow",
+    "y": 44,
+    "h": 22
+   },
+   {
+    "zone": "art",
+    "label": "art 150px",
+    "y": 66,
+    "h": 150
+   },
+   {
+    "zone": "mid",
+    "label": "type / suit",
+    "y": 216,
+    "h": 18
+   },
+   {
+    "zone": "txt",
+    "label": "rule text",
+    "y": 234,
+    "h": 34
+   },
+   {
+    "zone": "fl",
+    "label": "flavor",
+    "y": 268,
+    "h": 80
+   },
+   {
+    "zone": "id",
+    "label": "tile / licence",
+    "y": 348,
+    "h": 16
+   }
+  ]
+ },
+ "rights": {
+  "sale": "licence needed",
+  "marks": [
+   "ip:Velma-like"
+  ]
+ },
+ "status": {
+  "sealed": false
+ },
+ "resolution": {
+  "order": [
+   "legality",
+   "placement",
+   "interrupt",
+   "resolve",
+   "stop_time",
+   "score"
+  ],
+  "interruptible": true,
+  "can_interrupt": false,
+  "legality": "none"
+ },
+ "lexicon": [
+  "lexicon/chain_keyword.json",
+  "lexicon/muse.json",
+  "lexicon/normal.json",
+  "lexicon/pixel.json"
+ ]
+}

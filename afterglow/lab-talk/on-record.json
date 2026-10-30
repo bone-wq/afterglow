@@ -1,0 +1,12 @@
+{
+ "id": "on-record",
+ "mark": "on record",
+ "kind": "phrase",
+ "definition": "A decision the owner owns and takes the accountability for. It is written as an append and never rewritten.",
+ "source": "owner, 14:44",
+ "basis": "owner's words",
+ "contrast": {
+  "append": "On record is the stance; append is how it is kept."
+ },
+ "added": "2026-10-30"
+}

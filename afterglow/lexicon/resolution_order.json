@@ -1,0 +1,25 @@
+{
+ "id": "resolution_order",
+ "term": "Resolution Order",
+ "version": "v5",
+ "kind": "rule",
+ "definition": "The fixed order a play is processed in: legality > placement > interrupt > resolve > stop_time > score.",
+ "window": "Every play, including Stop Time extra plays.",
+ "does": "Decides which effect works when two apply: legality first, then Unstoppable vs Interrupt, then Ward vs Dim.",
+ "does_not": "Interrupts are not themselves interruptible; there is no stack deeper than one.",
+ "contrast": {
+  "provenance": "Resolution order is the rule; provenance is the record that it was followed."
+ },
+ "interacts": [
+  "unique",
+  "unstoppable",
+  "interrupt",
+  "ward",
+  "dim",
+  "stop_time"
+ ],
+ "precedence": null,
+ "source": "game-v5.md, Resolution",
+ "phase": null,
+ "cards": []
+}

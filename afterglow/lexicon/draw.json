@@ -1,0 +1,43 @@
+{
+ "id": "draw",
+ "term": "Draw",
+ "version": "v5",
+ "kind": "keyword",
+ "definition": "DRAW n (Signal): draw n cards.",
+ "window": "On resolve.",
+ "does": "Adds cards to your hand.",
+ "does_not": "Adds no plays.",
+ "contrast": {
+  "stop_time": "Draw gives cards; Stop Time gives plays."
+ },
+ "interacts": [
+  "hand",
+  "cancel"
+ ],
+ "precedence": null,
+ "source": "simulate_v5.put",
+ "phase": null,
+ "cards": [
+  6,
+  9,
+  10,
+  11,
+  12,
+  21,
+  22,
+  24,
+  34,
+  38,
+  46,
+  48,
+  53,
+  62,
+  85,
+  97
+ ],
+ "sim": {
+  "cards": 16,
+  "played": 21227,
+  "play_rate_pct": 79.8
+ }
+}

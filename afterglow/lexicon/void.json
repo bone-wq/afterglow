@@ -1,0 +1,43 @@
+{
+ "id": "void",
+ "term": "Void",
+ "version": "v5",
+ "kind": "suit",
+ "definition": "The suit of Sealed cards and First Light. Chains with nothing.",
+ "window": "Always.",
+ "does": "Breaks a chain.",
+ "does_not": "Is not an art style.",
+ "contrast": {
+  "wild": "Opposites.",
+  "sealed": "Every Sealed card is Void; First Light is Void but not Sealed."
+ },
+ "interacts": [
+  "chain",
+  "sealed"
+ ],
+ "precedence": null,
+ "source": "rules.cards",
+ "phase": null,
+ "cards": [
+  4,
+  27,
+  31,
+  41,
+  47,
+  63,
+  64,
+  74,
+  78,
+  79,
+  83,
+  86,
+  87,
+  91,
+  98
+ ],
+ "sim": {
+  "cards": 15,
+  "played": 1,
+  "play_rate_pct": 0.0
+ }
+}

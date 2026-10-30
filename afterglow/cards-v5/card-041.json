@@ -1,0 +1,147 @@
+{
+ "id": {
+  "deck": "deck-001",
+  "tile": 41,
+  "name": "First Light",
+  "sha256_16": "fb8d2c11c1c85946",
+  "version": "v5"
+ },
+ "play": {
+  "type": "Marker",
+  "suit": "Void",
+  "glow": 0,
+  "effect": {
+   "keyword": "FIRST",
+   "n": 2,
+   "target": "setup: seat order",
+   "text": "Not shuffled in. Its holder goes first; the second player starts with 2 Glow."
+  },
+  "flavor": "Before the first card, a burst.",
+  "in_line": false,
+  "timing": {
+   "key": "UNIQUE",
+   "value": 1
+  },
+  "text": "Not shuffled in. Its holder goes first; the second player starts with 2 Glow. Unique: one per game."
+ },
+ "connections": {
+  "chain_in": {
+   "rule": "none",
+   "count": 0,
+   "from_tiles": []
+  },
+  "chain_out": {
+   "rule": "none",
+   "count": 0,
+   "into_tiles": []
+  },
+  "effect": {
+   "keyword": "FIRST",
+   "n": 2,
+   "target": "setup: seat order"
+  },
+  "data": {
+   "d1": {
+    "table": "deck_cards",
+    "key": {
+     "deck": "deck-001",
+     "tile": 41
+    }
+   },
+   "local": {
+    "card_json": "cards-v5/card-041.json",
+    "wireframe": "wireframes-v5/card-041.svg"
+   }
+  }
+ },
+ "stats": {
+  "deck": {
+   "suit_count": 15,
+   "type_count": 1,
+   "type_share_pct": 1.0,
+   "chain_odds_pct": null
+  },
+  "glow_range": {
+   "min": 0,
+   "max": 0,
+   "opponent_swing": 0
+  },
+  "sim": null
+ },
+ "layout": {
+  "card_px": [
+   274,
+   400
+  ],
+  "inner_px": [
+   38,
+   44,
+   236,
+   364
+  ],
+  "zones": [
+   {
+    "zone": "top",
+    "label": "name / glow",
+    "y": 44,
+    "h": 22
+   },
+   {
+    "zone": "art",
+    "label": "art 150px",
+    "y": 66,
+    "h": 150
+   },
+   {
+    "zone": "mid",
+    "label": "type / suit",
+    "y": 216,
+    "h": 18
+   },
+   {
+    "zone": "txt",
+    "label": "rule text",
+    "y": 234,
+    "h": 34
+   },
+   {
+    "zone": "fl",
+    "label": "flavor",
+    "y": 268,
+    "h": 80
+   },
+   {
+    "zone": "id",
+    "label": "tile / licence",
+    "y": 348,
+    "h": 16
+   }
+  ]
+ },
+ "rights": {
+  "sale": "ok",
+  "marks": []
+ },
+ "status": {
+  "sealed": false
+ },
+ "resolution": {
+  "order": [
+   "legality",
+   "placement",
+   "interrupt",
+   "resolve",
+   "stop_time",
+   "score"
+  ],
+  "interruptible": false,
+  "can_interrupt": false,
+  "legality": "one Unique per Line"
+ },
+ "lexicon": [
+  "lexicon/first_light.json",
+  "lexicon/glow.json",
+  "lexicon/unique.json",
+  "lexicon/void.json"
+ ]
+}

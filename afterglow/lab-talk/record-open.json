@@ -1,0 +1,12 @@
+{
+ "id": "record-open",
+ "mark": "//||-",
+ "kind": "mark",
+ "definition": "Opens a record line: what follows is to be kept, in record format.",
+ "source": "owner, 2026-10-30, AnyaBear line",
+ "basis": "Claude's reading",
+ "contrast": {
+  "---": "//||- opens a record; --- separates its parts."
+ },
+ "added": "2026-10-30"
+}

@@ -1,0 +1,202 @@
+{
+ "id": {
+  "deck": "deck-001",
+  "tile": 72,
+  "name": "Close",
+  "sha256_16": "c7d22ca1210e30c4",
+  "version": "v5"
+ },
+ "play": {
+  "type": "Muse",
+  "suit": "Cel",
+  "glow": 2,
+  "effect": {
+   "keyword": "CHAIN",
+   "n": 2,
+   "target": "self: chain bonus",
+   "text": "If this chains, the chain bonus is +2 instead of +1."
+  },
+  "flavor": "Two, and no room between.",
+  "in_line": true,
+  "timing": {
+   "key": "NORMAL",
+   "value": 0
+  },
+  "text": "If this chains, the chain bonus is +2 instead of +1."
+ },
+ "connections": {
+  "chain_in": {
+   "rule": "Cel or Wild",
+   "count": 20,
+   "from_tiles": [
+    8,
+    13,
+    22,
+    24,
+    32,
+    34,
+    35,
+    37,
+    39,
+    43,
+    52,
+    55,
+    62,
+    73,
+    75,
+    84,
+    89,
+    94,
+    95,
+    99
+   ]
+  },
+  "chain_out": {
+   "rule": "Cel or Wild",
+   "count": 20,
+   "into_tiles": [
+    8,
+    13,
+    22,
+    24,
+    32,
+    34,
+    35,
+    37,
+    39,
+    43,
+    52,
+    55,
+    62,
+    73,
+    75,
+    84,
+    89,
+    94,
+    95,
+    99
+   ]
+  },
+  "effect": {
+   "keyword": "CHAIN",
+   "n": 2,
+   "target": "self: chain bonus"
+  },
+  "data": {
+   "d1": {
+    "table": "deck_cards",
+    "key": {
+     "deck": "deck-001",
+     "tile": 72
+    }
+   },
+   "local": {
+    "card_json": "cards-v5/card-072.json",
+    "wireframe": "wireframes-v5/card-072.svg"
+   }
+  }
+ },
+ "stats": {
+  "deck": {
+   "suit_count": 16,
+   "type_count": 30,
+   "type_share_pct": 30.0,
+   "chain_odds_pct": 20.4
+  },
+  "glow_range": {
+   "min": 2,
+   "max": 4,
+   "opponent_swing": 0
+  },
+  "sim": {
+   "games": 5000,
+   "seed": 1,
+   "comp_glow": 2,
+   "drawn": 1704,
+   "played": 549,
+   "play_rate_pct": 32.2,
+   "win_when_played_pct": 54.1,
+   "chained_pct": 94.7,
+   "avg_glow_when_played": 3.89,
+   "discarded": 0,
+   "interrupts_made": 0,
+   "times_interrupted": 0
+  }
+ },
+ "layout": {
+  "card_px": [
+   274,
+   400
+  ],
+  "inner_px": [
+   38,
+   44,
+   236,
+   364
+  ],
+  "zones": [
+   {
+    "zone": "top",
+    "label": "name / glow",
+    "y": 44,
+    "h": 22
+   },
+   {
+    "zone": "art",
+    "label": "art 150px",
+    "y": 66,
+    "h": 150
+   },
+   {
+    "zone": "mid",
+    "label": "type / suit",
+    "y": 216,
+    "h": 18
+   },
+   {
+    "zone": "txt",
+    "label": "rule text",
+    "y": 234,
+    "h": 34
+   },
+   {
+    "zone": "fl",
+    "label": "flavor",
+    "y": 268,
+    "h": 80
+   },
+   {
+    "zone": "id",
+    "label": "tile / licence",
+    "y": 348,
+    "h": 16
+   }
+  ]
+ },
+ "rights": {
+  "sale": "ok",
+  "marks": []
+ },
+ "status": {
+  "sealed": false
+ },
+ "resolution": {
+  "order": [
+   "legality",
+   "placement",
+   "interrupt",
+   "resolve",
+   "stop_time",
+   "score"
+  ],
+  "interruptible": true,
+  "can_interrupt": false,
+  "legality": "none"
+ },
+ "lexicon": [
+  "lexicon/cel.json",
+  "lexicon/chain_keyword.json",
+  "lexicon/muse.json",
+  "lexicon/normal.json"
+ ]
+}

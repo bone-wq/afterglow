@@ -1,0 +1,42 @@
+{
+ "id": "interrupt",
+ "term": "Interrupt",
+ "version": "v5",
+ "kind": "timing",
+ "definition": "INTERRUPT n (Shade): when the opponent plays a card, play this from your hand at once to cancel that card's effect.",
+ "window": "The opponent's turn, right after they place a card, before it resolves.",
+ "does": "Cancels one effect; the Shade joins your Line, gains its Glow, and its Ward applies.",
+ "does_not": "Cannot target an Unstoppable card. Cannot itself be interrupted. Does not chain. Does not take a turn.",
+ "contrast": {
+  "ward": "Interrupt acts and cancels any one effect; Ward waits and blocks only Dim.",
+  "stop_time": "Interrupt acts on the opponent's turn; Stop Time extends your own.",
+  "cancel": "Interrupt is the action; Cancel is its result."
+ },
+ "interacts": [
+  "cancel",
+  "unstoppable",
+  "ward",
+  "play"
+ ],
+ "precedence": 3,
+ "source": "simulate_v5.put",
+ "phase": "interrupt",
+ "cards": [
+  17,
+  18,
+  26,
+  33,
+  50,
+  51,
+  70,
+  77,
+  88,
+  90,
+  92
+ ],
+ "sim": {
+  "cards": 11,
+  "played": 10889,
+  "play_rate_pct": 59.7
+ }
+}

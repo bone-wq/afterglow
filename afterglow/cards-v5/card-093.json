@@ -1,0 +1,202 @@
+{
+ "id": {
+  "deck": "deck-001",
+  "tile": 93,
+  "name": "Black Gown",
+  "sha256_16": "64a300a266605152",
+  "version": "v5"
+ },
+ "play": {
+  "type": "Muse",
+  "suit": "Ink",
+  "glow": 2,
+  "effect": {
+   "keyword": "CHAIN",
+   "n": 2,
+   "target": "self: chain bonus",
+   "text": "If this chains, the chain bonus is +2 instead of +1."
+  },
+  "flavor": "Signed in the corner.",
+  "in_line": true,
+  "timing": {
+   "key": "NORMAL",
+   "value": 0
+  },
+  "text": "If this chains, the chain bonus is +2 instead of +1."
+ },
+ "connections": {
+  "chain_in": {
+   "rule": "Ink or Wild",
+   "count": 19,
+   "from_tiles": [
+    2,
+    13,
+    14,
+    19,
+    23,
+    25,
+    28,
+    37,
+    45,
+    46,
+    49,
+    52,
+    65,
+    70,
+    71,
+    75,
+    76,
+    77,
+    84
+   ]
+  },
+  "chain_out": {
+   "rule": "Ink or Wild",
+   "count": 19,
+   "into_tiles": [
+    2,
+    13,
+    14,
+    19,
+    23,
+    25,
+    28,
+    37,
+    45,
+    46,
+    49,
+    52,
+    65,
+    70,
+    71,
+    75,
+    76,
+    77,
+    84
+   ]
+  },
+  "effect": {
+   "keyword": "CHAIN",
+   "n": 2,
+   "target": "self: chain bonus"
+  },
+  "data": {
+   "d1": {
+    "table": "deck_cards",
+    "key": {
+     "deck": "deck-001",
+     "tile": 93
+    }
+   },
+   "local": {
+    "card_json": "cards-v5/card-093.json",
+    "wireframe": "wireframes-v5/card-093.svg"
+   }
+  }
+ },
+ "stats": {
+  "deck": {
+   "suit_count": 19,
+   "type_count": 30,
+   "type_share_pct": 30.0,
+   "chain_odds_pct": 19.4
+  },
+  "glow_range": {
+   "min": 2,
+   "max": 4,
+   "opponent_swing": 0
+  },
+  "sim": {
+   "games": 5000,
+   "seed": 1,
+   "comp_glow": 2,
+   "drawn": 1640,
+   "played": 512,
+   "play_rate_pct": 31.2,
+   "win_when_played_pct": 55.3,
+   "chained_pct": 95.5,
+   "avg_glow_when_played": 3.91,
+   "discarded": 0,
+   "interrupts_made": 0,
+   "times_interrupted": 0
+  }
+ },
+ "layout": {
+  "card_px": [
+   274,
+   400
+  ],
+  "inner_px": [
+   38,
+   44,
+   236,
+   364
+  ],
+  "zones": [
+   {
+    "zone": "top",
+    "label": "name / glow",
+    "y": 44,
+    "h": 22
+   },
+   {
+    "zone": "art",
+    "label": "art 150px",
+    "y": 66,
+    "h": 150
+   },
+   {
+    "zone": "mid",
+    "label": "type / suit",
+    "y": 216,
+    "h": 18
+   },
+   {
+    "zone": "txt",
+    "label": "rule text",
+    "y": 234,
+    "h": 34
+   },
+   {
+    "zone": "fl",
+    "label": "flavor",
+    "y": 268,
+    "h": 80
+   },
+   {
+    "zone": "id",
+    "label": "tile / licence",
+    "y": 348,
+    "h": 16
+   }
+  ]
+ },
+ "rights": {
+  "sale": "licence needed",
+  "marks": [
+   "mark:signature"
+  ]
+ },
+ "status": {
+  "sealed": false
+ },
+ "resolution": {
+  "order": [
+   "legality",
+   "placement",
+   "interrupt",
+   "resolve",
+   "stop_time",
+   "score"
+  ],
+  "interruptible": true,
+  "can_interrupt": false,
+  "legality": "none"
+ },
+ "lexicon": [
+  "lexicon/chain_keyword.json",
+  "lexicon/ink.json",
+  "lexicon/muse.json",
+  "lexicon/normal.json"
+ ]
+}

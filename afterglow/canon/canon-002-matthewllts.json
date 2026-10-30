@@ -1,0 +1,29 @@
+{
+ "deck": "afterglow-deck-001",
+ "id": "canon-002",
+ "asset_name": "MatthewLLTS",
+ "type": "human",
+ "full_name": "Matthew Joseph Lansing",
+ "standing": "canon",
+ "card": null,
+ "image": {
+  "file": null,
+  "attribution": "Matthew Joseph Lansing",
+  "status": "awaiting the owner's choice of image"
+ },
+ "discerned": null,
+ "discerned_note": "Nothing is inferred from images or files, under the owner's standing rule. Everything in this entry comes from the owner's own words and records.",
+ "lore": "Every Line in the city ends at a signature. The streets know the hand that signs them: MatthewLLTS, the one who keeps the record and puts a name to every decision. When a call goes wrong, the city knows whose it was, because that is what was asked of it. Some nights a dog nobody can name walks a step ahead of the one who signs.",
+ "rules_effect": null,
+ "owner_words": [
+  "im making this discion, on record, and AI can blame me if i fucked up =( 100% this is how i feel, as a human",
+  "now do the same for me and my image and what you can discern, same format"
+ ],
+ "sources": [
+  "owner's chat messages 2026-10-30",
+  "photo attribution rule: Matthew Joseph Lansing"
+ ],
+ "added": "2026-10-30",
+ "prev": "05dc5f97c4a80df13ab7636ed175cc969cebb48240d903858aa687c90fd44202",
+ "hash": "529f5c22f9a4a76656aa5b63c03224f203efd94d847d9ae0d4d94db12f546296"
+}

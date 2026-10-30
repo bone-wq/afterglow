@@ -1,0 +1,43 @@
+{
+ "id": "signal",
+ "term": "Signal",
+ "version": "v5",
+ "kind": "type",
+ "definition": "Signal: effect draw, timing stop_time.",
+ "window": "See its keyword and timing.",
+ "does": "Groups cards by first motif.",
+ "does_not": "Type is not suit; a type spans suits.",
+ "contrast": {
+  "timing": "Type is the effect family; timing is when it acts."
+ },
+ "interacts": [
+  "draw",
+  "stop_time"
+ ],
+ "precedence": null,
+ "source": "rules.TYPE_OF_MOTIF",
+ "phase": null,
+ "cards": [
+  6,
+  9,
+  10,
+  11,
+  12,
+  21,
+  22,
+  24,
+  34,
+  38,
+  46,
+  48,
+  53,
+  62,
+  85,
+  97
+ ],
+ "sim": {
+  "cards": 16,
+  "played": 21227,
+  "play_rate_pct": 79.8
+ }
+}

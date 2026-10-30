@@ -1,0 +1,330 @@
+{
+ "id": {
+  "deck": "deck-001",
+  "tile": 37,
+  "name": "Morning Stretch",
+  "sha256_16": "c1fb54c8eaa41b17",
+  "version": "v5"
+ },
+ "play": {
+  "type": "Oddity",
+  "suit": "Ink",
+  "glow": 2,
+  "effect": {
+   "keyword": "WILD",
+   "n": 0,
+   "target": "chain: any suit",
+   "text": "Chains with any suit."
+  },
+  "flavor": "The pup greets the day.",
+  "in_line": true,
+  "timing": {
+   "key": "UNIQUE",
+   "value": 1
+  },
+  "text": "Chains with any suit. Unique: at most one Unique card in your Line."
+ },
+ "connections": {
+  "chain_in": {
+   "rule": "any (Wild)",
+   "count": 84,
+   "from_tiles": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    28,
+    29,
+    30,
+    32,
+    33,
+    34,
+    35,
+    36,
+    38,
+    39,
+    40,
+    42,
+    43,
+    44,
+    45,
+    46,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    75,
+    76,
+    77,
+    80,
+    81,
+    82,
+    84,
+    85,
+    88,
+    89,
+    90,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    99,
+    100
+   ]
+  },
+  "chain_out": {
+   "rule": "any (Wild)",
+   "count": 84,
+   "into_tiles": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    28,
+    29,
+    30,
+    32,
+    33,
+    34,
+    35,
+    36,
+    38,
+    39,
+    40,
+    42,
+    43,
+    44,
+    45,
+    46,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    75,
+    76,
+    77,
+    80,
+    81,
+    82,
+    84,
+    85,
+    88,
+    89,
+    90,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    99,
+    100
+   ]
+  },
+  "effect": {
+   "keyword": "WILD",
+   "n": 0,
+   "target": "chain: any suit"
+  },
+  "data": {
+   "d1": {
+    "table": "deck_cards",
+    "key": {
+     "deck": "deck-001",
+     "tile": 37
+    }
+   },
+   "local": {
+    "card_json": "cards-v5/card-037.json",
+    "wireframe": "wireframes-v5/card-037.svg"
+   }
+  }
+ },
+ "stats": {
+  "deck": {
+   "suit_count": 19,
+   "type_count": 5,
+   "type_share_pct": 5.0,
+   "chain_odds_pct": 85.7
+  },
+  "glow_range": {
+   "min": 2,
+   "max": 3,
+   "opponent_swing": 0
+  },
+  "sim": {
+   "games": 5000,
+   "seed": 1,
+   "comp_glow": 2,
+   "drawn": 1696,
+   "played": 485,
+   "play_rate_pct": 28.6,
+   "win_when_played_pct": 55.9,
+   "chained_pct": 98.8,
+   "avg_glow_when_played": 2.99,
+   "discarded": 0,
+   "interrupts_made": 0,
+   "times_interrupted": 0
+  }
+ },
+ "layout": {
+  "card_px": [
+   274,
+   400
+  ],
+  "inner_px": [
+   38,
+   44,
+   236,
+   364
+  ],
+  "zones": [
+   {
+    "zone": "top",
+    "label": "name / glow",
+    "y": 44,
+    "h": 22
+   },
+   {
+    "zone": "art",
+    "label": "art 150px",
+    "y": 66,
+    "h": 150
+   },
+   {
+    "zone": "mid",
+    "label": "type / suit",
+    "y": 216,
+    "h": 18
+   },
+   {
+    "zone": "txt",
+    "label": "rule text",
+    "y": 234,
+    "h": 34
+   },
+   {
+    "zone": "fl",
+    "label": "flavor",
+    "y": 268,
+    "h": 80
+   },
+   {
+    "zone": "id",
+    "label": "tile / licence",
+    "y": 348,
+    "h": 16
+   }
+  ]
+ },
+ "rights": {
+  "sale": "ok",
+  "marks": []
+ },
+ "status": {
+  "sealed": false
+ },
+ "resolution": {
+  "order": [
+   "legality",
+   "placement",
+   "interrupt",
+   "resolve",
+   "stop_time",
+   "score"
+  ],
+  "interruptible": true,
+  "can_interrupt": false,
+  "legality": "one Unique per Line"
+ },
+ "lexicon": [
+  "lexicon/ink.json",
+  "lexicon/oddity.json",
+  "lexicon/unique.json",
+  "lexicon/wild.json"
+ ]
+}

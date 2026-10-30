@@ -1,0 +1,202 @@
+{
+ "id": {
+  "deck": "deck-001",
+  "tile": 9,
+  "name": "Coil Library",
+  "sha256_16": "570635959005885c",
+  "version": "v5"
+ },
+ "play": {
+  "type": "Signal",
+  "suit": "Pixel",
+  "glow": 1,
+  "effect": {
+   "keyword": "DRAW",
+   "n": 1,
+   "target": "self: hand",
+   "text": "Draw 1."
+  },
+  "flavor": "The shelves hum.",
+  "in_line": true,
+  "timing": {
+   "key": "STOP_TIME",
+   "value": 1
+  },
+  "text": "Draw 1. Stop Time 1: after this resolves, play 1 more card this turn."
+ },
+ "connections": {
+  "chain_in": {
+   "rule": "Pixel or Wild",
+   "count": 19,
+   "from_tiles": [
+    6,
+    10,
+    13,
+    18,
+    26,
+    30,
+    36,
+    37,
+    42,
+    48,
+    50,
+    51,
+    52,
+    57,
+    59,
+    66,
+    75,
+    84,
+    85
+   ]
+  },
+  "chain_out": {
+   "rule": "Pixel or Wild",
+   "count": 19,
+   "into_tiles": [
+    6,
+    10,
+    13,
+    18,
+    26,
+    30,
+    36,
+    37,
+    42,
+    48,
+    50,
+    51,
+    52,
+    57,
+    59,
+    66,
+    75,
+    84,
+    85
+   ]
+  },
+  "effect": {
+   "keyword": "DRAW",
+   "n": 1,
+   "target": "self: hand"
+  },
+  "data": {
+   "d1": {
+    "table": "deck_cards",
+    "key": {
+     "deck": "deck-001",
+     "tile": 9
+    }
+   },
+   "local": {
+    "card_json": "cards-v5/card-009.json",
+    "wireframe": "wireframes-v5/card-009.svg"
+   }
+  }
+ },
+ "stats": {
+  "deck": {
+   "suit_count": 16,
+   "type_count": 16,
+   "type_share_pct": 16.0,
+   "chain_odds_pct": 19.4
+  },
+  "glow_range": {
+   "min": 1,
+   "max": 2,
+   "opponent_swing": 0
+  },
+  "sim": {
+   "games": 5000,
+   "seed": 1,
+   "comp_glow": 2,
+   "drawn": 1645,
+   "played": 1241,
+   "play_rate_pct": 75.4,
+   "win_when_played_pct": 57.4,
+   "chained_pct": 37.4,
+   "avg_glow_when_played": 1.37,
+   "discarded": 54,
+   "interrupts_made": 0,
+   "times_interrupted": 513
+  }
+ },
+ "layout": {
+  "card_px": [
+   274,
+   400
+  ],
+  "inner_px": [
+   38,
+   44,
+   236,
+   364
+  ],
+  "zones": [
+   {
+    "zone": "top",
+    "label": "name / glow",
+    "y": 44,
+    "h": 22
+   },
+   {
+    "zone": "art",
+    "label": "art 150px",
+    "y": 66,
+    "h": 150
+   },
+   {
+    "zone": "mid",
+    "label": "type / suit",
+    "y": 216,
+    "h": 18
+   },
+   {
+    "zone": "txt",
+    "label": "rule text",
+    "y": 234,
+    "h": 34
+   },
+   {
+    "zone": "fl",
+    "label": "flavor",
+    "y": 268,
+    "h": 80
+   },
+   {
+    "zone": "id",
+    "label": "tile / licence",
+    "y": 348,
+    "h": 16
+   }
+  ]
+ },
+ "rights": {
+  "sale": "licence needed",
+  "marks": [
+   "ip:Velma-like"
+  ]
+ },
+ "status": {
+  "sealed": false
+ },
+ "resolution": {
+  "order": [
+   "legality",
+   "placement",
+   "interrupt",
+   "resolve",
+   "stop_time",
+   "score"
+  ],
+  "interruptible": true,
+  "can_interrupt": false,
+  "legality": "none"
+ },
+ "lexicon": [
+  "lexicon/draw.json",
+  "lexicon/pixel.json",
+  "lexicon/signal.json",
+  "lexicon/stop_time.json"
+ ]
+}

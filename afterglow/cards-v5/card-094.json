@@ -1,0 +1,202 @@
+{
+ "id": {
+  "deck": "deck-001",
+  "tile": 94,
+  "name": "Lotus Crown",
+  "sha256_16": "632902d4f343cdd7",
+  "version": "v5"
+ },
+ "play": {
+  "type": "Myth",
+  "suit": "Cel",
+  "glow": 1,
+  "effect": {
+   "keyword": "BOOST",
+   "n": 2,
+   "target": "self: +Glow",
+   "text": "Gain 2 extra Glow."
+  },
+  "flavor": "The snake keeps her secrets.",
+  "in_line": true,
+  "timing": {
+   "key": "UNSTOPPABLE",
+   "value": 1
+  },
+  "text": "Gain 2 extra Glow. Unstoppable: cannot be interrupted."
+ },
+ "connections": {
+  "chain_in": {
+   "rule": "Cel or Wild",
+   "count": 20,
+   "from_tiles": [
+    8,
+    13,
+    22,
+    24,
+    32,
+    34,
+    35,
+    37,
+    39,
+    43,
+    52,
+    55,
+    62,
+    72,
+    73,
+    75,
+    84,
+    89,
+    95,
+    99
+   ]
+  },
+  "chain_out": {
+   "rule": "Cel or Wild",
+   "count": 20,
+   "into_tiles": [
+    8,
+    13,
+    22,
+    24,
+    32,
+    34,
+    35,
+    37,
+    39,
+    43,
+    52,
+    55,
+    62,
+    72,
+    73,
+    75,
+    84,
+    89,
+    95,
+    99
+   ]
+  },
+  "effect": {
+   "keyword": "BOOST",
+   "n": 2,
+   "target": "self: +Glow"
+  },
+  "data": {
+   "d1": {
+    "table": "deck_cards",
+    "key": {
+     "deck": "deck-001",
+     "tile": 94
+    }
+   },
+   "local": {
+    "card_json": "cards-v5/card-094.json",
+    "wireframe": "wireframes-v5/card-094.svg"
+   }
+  }
+ },
+ "stats": {
+  "deck": {
+   "suit_count": 16,
+   "type_count": 13,
+   "type_share_pct": 13.0,
+   "chain_odds_pct": 20.4
+  },
+  "glow_range": {
+   "min": 3,
+   "max": 4,
+   "opponent_swing": 0
+  },
+  "sim": {
+   "games": 5000,
+   "seed": 1,
+   "comp_glow": 2,
+   "drawn": 1612,
+   "played": 746,
+   "play_rate_pct": 46.3,
+   "win_when_played_pct": 55.0,
+   "chained_pct": 43.3,
+   "avg_glow_when_played": 3.43,
+   "discarded": 223,
+   "interrupts_made": 0,
+   "times_interrupted": 0
+  }
+ },
+ "layout": {
+  "card_px": [
+   274,
+   400
+  ],
+  "inner_px": [
+   38,
+   44,
+   236,
+   364
+  ],
+  "zones": [
+   {
+    "zone": "top",
+    "label": "name / glow",
+    "y": 44,
+    "h": 22
+   },
+   {
+    "zone": "art",
+    "label": "art 150px",
+    "y": 66,
+    "h": 150
+   },
+   {
+    "zone": "mid",
+    "label": "type / suit",
+    "y": 216,
+    "h": 18
+   },
+   {
+    "zone": "txt",
+    "label": "rule text",
+    "y": 234,
+    "h": 34
+   },
+   {
+    "zone": "fl",
+    "label": "flavor",
+    "y": 268,
+    "h": 80
+   },
+   {
+    "zone": "id",
+    "label": "tile / licence",
+    "y": 348,
+    "h": 16
+   }
+  ]
+ },
+ "rights": {
+  "sale": "ok",
+  "marks": []
+ },
+ "status": {
+  "sealed": false
+ },
+ "resolution": {
+  "order": [
+   "legality",
+   "placement",
+   "interrupt",
+   "resolve",
+   "stop_time",
+   "score"
+  ],
+  "interruptible": false,
+  "can_interrupt": false,
+  "legality": "none"
+ },
+ "lexicon": [
+  "lexicon/boost.json",
+  "lexicon/cel.json",
+  "lexicon/myth.json",
+  "lexicon/unstoppable.json"
+ ]
+}

@@ -1,0 +1,12 @@
+{
+ "id": "xx-yy-zz",
+ "mark": "xx-yy-zz",
+ "kind": "pattern",
+ "definition": "An axis pattern seen in file names (xx-yy-zz-llts.docx). x = type, y = affinity; z is unknown.",
+ "source": "file names on G:",
+ "basis": "Claude's reading; z undefined",
+ "contrast": {
+  "y": "y is the one axis the owner has defined."
+ },
+ "added": "2026-10-30"
+}

@@ -1,0 +1,10 @@
+{
+ "id": "separator",
+ "mark": "---",
+ "kind": "mark",
+ "definition": "Separates the parts of a record line.",
+ "source": "AnyaBear line",
+ "basis": "Claude's reading",
+ "contrast": {},
+ "added": "2026-10-30"
+}

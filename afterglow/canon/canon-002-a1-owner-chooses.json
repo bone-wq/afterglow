@@ -1,0 +1,15 @@
+{
+ "deck": "afterglow-deck-001",
+ "id": "canon-002-a1",
+ "amends": "canon-002",
+ "decided_by": "owner",
+ "on_record": true,
+ "decision": "The owner decides when the no-inference rule applies to the owner's own material. For canon-002 it does not apply: discernment from the owner's image is allowed.",
+ "corrects": "canon-002 discerned_note called the rule the owner's standing rule. The owner says it is not their rule.",
+ "owner_words": "not my rule, and as a matter of fact write this up as an append, i choose when that rule applies for my own stuff",
+ "discerned": null,
+ "discerned_status": "waiting for the image: none has been given yet",
+ "at": "2026-10-30",
+ "prev": "529f5c22f9a4a76656aa5b63c03224f203efd94d847d9ae0d4d94db12f546296",
+ "hash": "5475d5c143c84fbdef704fe440ae58dd0040315946b07d6cc9db9a978bce7222"
+}

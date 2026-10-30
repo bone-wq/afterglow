@@ -1,0 +1,23 @@
+{
+ "id": "chain",
+ "term": "Chain",
+ "version": "v5",
+ "kind": "rule",
+ "definition": "A card chains if its suit matches the last card in your Line, or either is Wild.",
+ "window": "Checked when the card resolves, against the Line before it.",
+ "does": "Earns the chain bonus.",
+ "does_not": "Never chains to an empty Line, to Void, or from Void.",
+ "contrast": {
+  "chain_bonus": "Chain is the condition; chain bonus is the reward.",
+  "chain_keyword": "Muse's CHAIN keyword changes the reward, not the condition."
+ },
+ "interacts": [
+  "wild",
+  "void",
+  "chain_bonus"
+ ],
+ "precedence": null,
+ "source": "simulate_v5.chains",
+ "phase": null,
+ "cards": []
+}

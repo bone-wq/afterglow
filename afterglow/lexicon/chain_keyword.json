@@ -1,0 +1,58 @@
+{
+ "id": "chain_keyword",
+ "term": "Chain Keyword",
+ "version": "v5",
+ "kind": "keyword",
+ "definition": "CHAIN n (Muse): if this chains, the bonus is +n instead of +1.",
+ "window": "On resolve, only if it chains.",
+ "does": "Raises the chain bonus.",
+ "does_not": "Does nothing if it does not chain.",
+ "contrast": {
+  "chain": "The keyword is a card ability; chain is the rule every card uses.",
+  "boost": "Boost pays without a chain."
+ },
+ "interacts": [
+  "chain",
+  "cancel"
+ ],
+ "precedence": null,
+ "source": "rules.TYPES",
+ "phase": null,
+ "cards": [
+  1,
+  2,
+  3,
+  5,
+  7,
+  8,
+  15,
+  23,
+  28,
+  30,
+  32,
+  39,
+  40,
+  43,
+  49,
+  54,
+  58,
+  60,
+  61,
+  67,
+  69,
+  71,
+  72,
+  80,
+  81,
+  82,
+  93,
+  95,
+  99,
+  100
+ ],
+ "sim": {
+  "cards": 30,
+  "played": 22973,
+  "play_rate_pct": 46.3
+ }
+}

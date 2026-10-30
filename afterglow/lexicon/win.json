@@ -1,0 +1,18 @@
+{
+ "id": "win",
+ "term": "Win",
+ "version": "v5",
+ "kind": "rule",
+ "definition": "Reach 21 Glow. If the deck and both hands are empty, higher Glow wins.",
+ "window": "Checked after each resolve, including an Interrupt's Glow on the opponent's turn.",
+ "does": "Ends the game at once.",
+ "does_not": "No tiebreak beyond Glow; equal Glow at exhaustion is a tie.",
+ "contrast": {},
+ "interacts": [
+  "glow"
+ ],
+ "precedence": 6,
+ "source": "game.md, Turn 4",
+ "phase": "score",
+ "cards": []
+}

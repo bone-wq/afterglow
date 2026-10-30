@@ -1,0 +1,25 @@
+{
+ "id": "play",
+ "term": "Play",
+ "version": "v5",
+ "kind": "procedure",
+ "definition": "Put one card from your hand onto the end of your Line.",
+ "window": "Your turn: once, plus one more per Stop Time that resolves.",
+ "does": "Places the card and opens the opponent's Interrupt window. It is the provenance event.",
+ "does_not": "Does not by itself gain Glow or apply the effect; that is Resolve.",
+ "contrast": {
+  "resolve": "Play is the act of placing; Resolve is the result being applied.",
+  "interrupt": "An Interrupt is a play made on the opponent's turn, in response."
+ },
+ "interacts": [
+  "resolve",
+  "interrupt",
+  "unique",
+  "stop_time",
+  "provenance"
+ ],
+ "precedence": 2,
+ "source": "simulate_v5.py, put()",
+ "phase": "placement",
+ "cards": []
+}

@@ -1,0 +1,57 @@
+{
+ "id": "muse",
+ "term": "Muse",
+ "version": "v5",
+ "kind": "type",
+ "definition": "Muse: effect chain_keyword, timing normal.",
+ "window": "See its keyword and timing.",
+ "does": "Groups cards by first motif.",
+ "does_not": "Type is not suit; a type spans suits.",
+ "contrast": {
+  "timing": "Type is the effect family; timing is when it acts."
+ },
+ "interacts": [
+  "chain_keyword",
+  "normal"
+ ],
+ "precedence": null,
+ "source": "rules.TYPE_OF_MOTIF",
+ "phase": null,
+ "cards": [
+  1,
+  2,
+  3,
+  5,
+  7,
+  8,
+  15,
+  23,
+  28,
+  30,
+  32,
+  39,
+  40,
+  43,
+  49,
+  54,
+  58,
+  60,
+  61,
+  67,
+  69,
+  71,
+  72,
+  80,
+  81,
+  82,
+  93,
+  95,
+  99,
+  100
+ ],
+ "sim": {
+  "cards": 30,
+  "played": 22973,
+  "play_rate_pct": 46.3
+ }
+}

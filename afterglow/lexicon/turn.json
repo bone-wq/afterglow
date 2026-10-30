@@ -1,0 +1,22 @@
+{
+ "id": "turn",
+ "term": "Turn",
+ "version": "v5",
+ "kind": "procedure",
+ "definition": "Draw 2, play 1 (more with Stop Time), discard to 7. Your Ward ends at the start of your turn.",
+ "window": "Alternating; First Light's holder goes first.",
+ "does": "Is the unit the simulator counts games in.",
+ "does_not": "An Interrupt does not take a turn.",
+ "contrast": {
+  "stop_time": "Stop Time adds plays inside a turn, not a turn."
+ },
+ "interacts": [
+  "draw",
+  "stop_time",
+  "ward"
+ ],
+ "precedence": null,
+ "source": "game.md, Turn",
+ "phase": null,
+ "cards": []
+}

@@ -1,0 +1,22 @@
+{
+ "id": "chain_bonus",
+ "term": "Chain Bonus",
+ "version": "v5",
+ "kind": "reward",
+ "definition": "+1 Glow when a card chains (Muse: +2).",
+ "window": "Part of resolve.",
+ "does": "Adds Glow.",
+ "does_not": "The basic +1 survives a Cancel; Muse's extra +1 does not.",
+ "contrast": {
+  "boost": "Chain bonus needs a chain; Boost does not."
+ },
+ "interacts": [
+  "chain",
+  "chain_keyword",
+  "cancel"
+ ],
+ "precedence": null,
+ "source": "simulate_v5.value",
+ "phase": null,
+ "cards": []
+}

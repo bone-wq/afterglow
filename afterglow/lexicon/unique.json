@@ -1,0 +1,35 @@
+{
+ "id": "unique",
+ "term": "Unique",
+ "version": "v5",
+ "kind": "timing",
+ "definition": "UNIQUE (Oddity, First Light): at most one Unique card in your Line. First Light is one per game.",
+ "window": "Before play (legality).",
+ "does": "Makes a second Unique card unplayable for you.",
+ "does_not": "Does not limit your hand. Does not stop the opponent playing theirs.",
+ "contrast": {
+  "sealed": "Unique limits how many you play; Sealed is the owner's hold.",
+  "wild": "Unique limits the count; Wild is the ability."
+ },
+ "interacts": [
+  "wild",
+  "line",
+  "play"
+ ],
+ "precedence": 1,
+ "source": "simulate_v5.allowed",
+ "phase": "legality",
+ "cards": [
+  13,
+  37,
+  41,
+  52,
+  75,
+  84
+ ],
+ "sim": {
+  "cards": 6,
+  "played": 2368,
+  "play_rate_pct": 28.6
+ }
+}

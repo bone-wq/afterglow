@@ -1,0 +1,46 @@
+{
+ "id": "stop_time",
+ "term": "Stop Time",
+ "version": "v5",
+ "kind": "timing",
+ "definition": "STOP TIME n (Signal): after this resolves, play n more cards this turn.",
+ "window": "Your turn, after resolve.",
+ "does": "Adds plays without drawing.",
+ "does_not": "Does nothing if interrupted. Adds no cards. Extra plays can each be interrupted.",
+ "contrast": {
+  "draw": "Stop Time adds plays; Draw adds cards.",
+  "turn": "Stop Time stays inside the same turn.",
+  "interrupt": "Stop Time works on your turn; Interrupt on theirs."
+ },
+ "interacts": [
+  "play",
+  "interrupt",
+  "cancel"
+ ],
+ "precedence": 5,
+ "source": "simulate_v5.play",
+ "phase": "stop_time",
+ "cards": [
+  6,
+  9,
+  10,
+  11,
+  12,
+  21,
+  22,
+  24,
+  34,
+  38,
+  46,
+  48,
+  53,
+  62,
+  85,
+  97
+ ],
+ "sim": {
+  "cards": 16,
+  "played": 21227,
+  "play_rate_pct": 79.8
+ }
+}

@@ -1,0 +1,22 @@
+{
+ "id": "cancel",
+ "term": "Cancel",
+ "version": "v5",
+ "kind": "result",
+ "definition": "An Interrupt's result: the target card's effect does not happen.",
+ "window": "Immediately, before the target resolves.",
+ "does": "Removes Draw, Dim, Boost, Muse's extra chain bonus, or Stop Time.",
+ "does_not": "Does not remove the card, its printed Glow, or the basic +1 chain bonus.",
+ "contrast": {
+  "dim": "Dim takes Glow; Cancel takes an effect.",
+  "ward": "Ward prevents Dim only; Cancel stops any one effect."
+ },
+ "interacts": [
+  "interrupt",
+  "unstoppable"
+ ],
+ "precedence": 3,
+ "source": "simulate_v5.py, put()",
+ "phase": "interrupt",
+ "cards": []
+}

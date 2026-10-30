@@ -1,0 +1,12 @@
+{
+ "id": "maybe",
+ "mark": "-maybe-",
+ "kind": "qualifier",
+ "definition": "What comes after is unconfirmed: a candidate value, not a fact. pitbull-maybe-lab-rot = pitbull, possibly lab or rot.",
+ "source": "AnyaBear line",
+ "basis": "Claude's reading",
+ "contrast": {
+  "type-arrow": "Values before maybe stand; values after it are candidates."
+ },
+ "added": "2026-10-30"
+}

@@ -1,0 +1,25 @@
+{
+ "id": "line",
+ "term": "Line",
+ "version": "v5",
+ "kind": "zone",
+ "definition": "Your row of played cards, in the order played.",
+ "window": "Grows by one card per play or interrupt.",
+ "does": "Decides chaining (only the last card counts) and is the visible record of play.",
+ "does_not": "Never loses a card. Nothing is taken back.",
+ "contrast": {
+  "hand": "The hand is private and changes; the Line is public and only grows.",
+  "discard": "Discarded cards leave the game; Line cards stay.",
+  "provenance": "The Line is the board state; provenance is the hash-linked log of how it got there."
+ },
+ "interacts": [
+  "chain",
+  "unique",
+  "interrupt",
+  "provenance"
+ ],
+ "precedence": null,
+ "source": "game.md, Concept",
+ "phase": null,
+ "cards": []
+}

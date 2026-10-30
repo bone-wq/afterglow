@@ -1,0 +1,12 @@
+{
+ "id": "append",
+ "mark": "append",
+ "kind": "verb",
+ "definition": "Add beside, never overwrite. A correction is a new entry that points at the old one.",
+ "source": "house rule; owner 2026-10-30",
+ "basis": "owner's words",
+ "contrast": {
+  "on-record": "see on record"
+ },
+ "added": "2026-10-30"
+}

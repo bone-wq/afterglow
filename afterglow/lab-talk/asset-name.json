@@ -1,0 +1,12 @@
+{
+ "id": "asset-name",
+ "mark": "(asset-name)=",
+ "kind": "slot",
+ "definition": "The name slot. The value follows, in parentheses at the end: (AnyaBear).",
+ "source": "AnyaBear line",
+ "basis": "Claude's reading",
+ "contrast": {
+  "type": "asset-name says who; type says what."
+ },
+ "added": "2026-10-30"
+}

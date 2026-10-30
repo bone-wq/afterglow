@@ -1,0 +1,33 @@
+{
+ "id": "wild",
+ "term": "Wild",
+ "version": "v5",
+ "kind": "keyword",
+ "definition": "WILD (Oddity): chains with any suit, before or after it.",
+ "window": "On chain checks.",
+ "does": "Bridges any two suits.",
+ "does_not": "Does not chain with Void.",
+ "contrast": {
+  "void": "Wild chains with everything except Void; Void chains with nothing.",
+  "unique": "Wild is what an Oddity does; Unique is how many you may have in your Line."
+ },
+ "interacts": [
+  "chain",
+  "unique"
+ ],
+ "precedence": null,
+ "source": "simulate_v5.chains",
+ "phase": null,
+ "cards": [
+  13,
+  37,
+  52,
+  75,
+  84
+ ],
+ "sim": {
+  "cards": 5,
+  "played": 2368,
+  "play_rate_pct": 28.6
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "id": "sealed",
+ "term": "Sealed",
+ "version": "v5",
+ "kind": "type",
+ "definition": "A card for a held tile. Face down, 1 Glow, no effect, Void, Normal timing.",
+ "window": "Always.",
+ "does": "Stays in the count of 100.",
+ "does_not": "Says nothing about its image. Not tuned.",
+ "contrast": {
+  "unique": "Different things; see unique.",
+  "void": "Sealed cards are Void."
+ },
+ "interacts": [
+  "void"
+ ],
+ "precedence": null,
+ "source": "game.md, Sealed cards",
+ "phase": null,
+ "cards": [
+  4,
+  27,
+  31,
+  47,
+  63,
+  64,
+  74,
+  78,
+  79,
+  83,
+  86,
+  87,
+  91,
+  98
+ ],
+ "sim": {
+  "cards": 14,
+  "played": 1,
+  "play_rate_pct": 0.0
+ }
+}

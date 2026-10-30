@@ -1,0 +1,202 @@
+{
+ "id": {
+  "deck": "deck-001",
+  "tile": 46,
+  "name": "The Typist",
+  "sha256_16": "7d5bb7c5aa81c1b1",
+  "version": "v5"
+ },
+ "play": {
+  "type": "Signal",
+  "suit": "Ink",
+  "glow": 1,
+  "effect": {
+   "keyword": "DRAW",
+   "n": 1,
+   "target": "self: hand",
+   "text": "Draw 1."
+  },
+  "flavor": "It types faster than it thinks.",
+  "in_line": true,
+  "timing": {
+   "key": "STOP_TIME",
+   "value": 1
+  },
+  "text": "Draw 1. Stop Time 1: after this resolves, play 1 more card this turn."
+ },
+ "connections": {
+  "chain_in": {
+   "rule": "Ink or Wild",
+   "count": 19,
+   "from_tiles": [
+    2,
+    13,
+    14,
+    19,
+    23,
+    25,
+    28,
+    37,
+    45,
+    49,
+    52,
+    65,
+    70,
+    71,
+    75,
+    76,
+    77,
+    84,
+    93
+   ]
+  },
+  "chain_out": {
+   "rule": "Ink or Wild",
+   "count": 19,
+   "into_tiles": [
+    2,
+    13,
+    14,
+    19,
+    23,
+    25,
+    28,
+    37,
+    45,
+    49,
+    52,
+    65,
+    70,
+    71,
+    75,
+    76,
+    77,
+    84,
+    93
+   ]
+  },
+  "effect": {
+   "keyword": "DRAW",
+   "n": 1,
+   "target": "self: hand"
+  },
+  "data": {
+   "d1": {
+    "table": "deck_cards",
+    "key": {
+     "deck": "deck-001",
+     "tile": 46
+    }
+   },
+   "local": {
+    "card_json": "cards-v5/card-046.json",
+    "wireframe": "wireframes-v5/card-046.svg"
+   }
+  }
+ },
+ "stats": {
+  "deck": {
+   "suit_count": 19,
+   "type_count": 16,
+   "type_share_pct": 16.0,
+   "chain_odds_pct": 19.4
+  },
+  "glow_range": {
+   "min": 1,
+   "max": 2,
+   "opponent_swing": 0
+  },
+  "sim": {
+   "games": 5000,
+   "seed": 1,
+   "comp_glow": 2,
+   "drawn": 1676,
+   "played": 1185,
+   "play_rate_pct": 70.7,
+   "win_when_played_pct": 53.7,
+   "chained_pct": 17.6,
+   "avg_glow_when_played": 1.18,
+   "discarded": 77,
+   "interrupts_made": 0,
+   "times_interrupted": 516
+  }
+ },
+ "layout": {
+  "card_px": [
+   274,
+   400
+  ],
+  "inner_px": [
+   38,
+   44,
+   236,
+   364
+  ],
+  "zones": [
+   {
+    "zone": "top",
+    "label": "name / glow",
+    "y": 44,
+    "h": 22
+   },
+   {
+    "zone": "art",
+    "label": "art 150px",
+    "y": 66,
+    "h": 150
+   },
+   {
+    "zone": "mid",
+    "label": "type / suit",
+    "y": 216,
+    "h": 18
+   },
+   {
+    "zone": "txt",
+    "label": "rule text",
+    "y": 234,
+    "h": 34
+   },
+   {
+    "zone": "fl",
+    "label": "flavor",
+    "y": 268,
+    "h": 80
+   },
+   {
+    "zone": "id",
+    "label": "tile / licence",
+    "y": 348,
+    "h": 16
+   }
+  ]
+ },
+ "rights": {
+  "sale": "licence needed",
+  "marks": [
+   "mark:Grok watermark"
+  ]
+ },
+ "status": {
+  "sealed": false
+ },
+ "resolution": {
+  "order": [
+   "legality",
+   "placement",
+   "interrupt",
+   "resolve",
+   "stop_time",
+   "score"
+  ],
+  "interruptible": true,
+  "can_interrupt": false,
+  "legality": "none"
+ },
+ "lexicon": [
+  "lexicon/draw.json",
+  "lexicon/ink.json",
+  "lexicon/signal.json",
+  "lexicon/stop_time.json"
+ ]
+}

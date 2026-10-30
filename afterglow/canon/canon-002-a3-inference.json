@@ -1,0 +1,25 @@
+{
+ "deck": "afterglow-deck-001",
+ "id": "canon-002-a3",
+ "amends": "canon-002",
+ "decided_by": "owner",
+ "on_record": true,
+ "owner_words": "read this closely for inference not my rule, and as a matter of fact write this up as an append, i choose when that rule applies for my own stuff",
+ "inference_by": "Claude, at the owner's request. These are inferences, not facts.",
+ "source": "the owner's own sentence, read closely",
+ "inferences": [
+  "'not my rule': the owner did not make the no-inference rule, and does not hold it as a limit on themselves. It is a guard set around their material, not a choice of theirs.",
+  "'i choose when': the rule protects the owner, so the owner holds its key. A protection the protected person cannot lift stops protecting them and starts governing them.",
+  "'for my own stuff': the waiver covers the owner's own material only. Other people's material keeps the rule.",
+  "'as a matter of fact' + 'as an append': the owner wants this settled as a fact on record that cannot be quietly rewritten, not as a passing preference.",
+  "This matches the 14:44 record ('AI can blame me if i fucked up'): the owner takes the authority and the accountability together.",
+  "For y (affinity): this sentence shows an affinity for agency over one's own record. That is canon-002's first y value, inferred, marked as such."
+ ],
+ "y": [
+  "agency over one's own record"
+ ],
+ "y_basis": "inferred from the owner's words, not from an image",
+ "at": "2026-10-30",
+ "prev": "ec4ec5de6f75714ab806d63ff1f3218c98371682f359b9d66ed6583e2c40d466",
+ "hash": "1086a507aaf4cbf474f8f820c66aba9d2bd9dd778db5735337f1b66b4a0c8f33"
+}

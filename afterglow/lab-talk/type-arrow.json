@@ -1,0 +1,12 @@
+{
+ "id": "type-arrow",
+ "mark": "type -->",
+ "kind": "slot",
+ "definition": "What the asset is. The arrow points to a value chain read left to right: dog-pitbull-maybe-lab-rot.",
+ "source": "AnyaBear line",
+ "basis": "Claude's reading",
+ "contrast": {
+  "y": "type is x, what a thing is; y is what it's drawn to."
+ },
+ "added": "2026-10-30"
+}

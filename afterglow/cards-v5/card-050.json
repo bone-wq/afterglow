@@ -1,0 +1,200 @@
+{
+ "id": {
+  "deck": "deck-001",
+  "tile": 50,
+  "name": "Shatter",
+  "sha256_16": "c7a72be33c4bd471",
+  "version": "v5"
+ },
+ "play": {
+  "type": "Shade",
+  "suit": "Pixel",
+  "glow": 1,
+  "effect": {
+   "keyword": "WARD",
+   "n": 0,
+   "target": "self: shield to next turn",
+   "text": "Until your next turn, you cannot be Dimmed."
+  },
+  "flavor": "A face in every shard.",
+  "in_line": true,
+  "timing": {
+   "key": "INTERRUPT",
+   "value": 1
+  },
+  "text": "Until your next turn, you cannot be Dimmed. Interrupt: on the opponent's play, play this from hand to cancel that card's effect."
+ },
+ "connections": {
+  "chain_in": {
+   "rule": "Pixel or Wild",
+   "count": 19,
+   "from_tiles": [
+    6,
+    9,
+    10,
+    13,
+    18,
+    26,
+    30,
+    36,
+    37,
+    42,
+    48,
+    51,
+    52,
+    57,
+    59,
+    66,
+    75,
+    84,
+    85
+   ]
+  },
+  "chain_out": {
+   "rule": "Pixel or Wild",
+   "count": 19,
+   "into_tiles": [
+    6,
+    9,
+    10,
+    13,
+    18,
+    26,
+    30,
+    36,
+    37,
+    42,
+    48,
+    51,
+    52,
+    57,
+    59,
+    66,
+    75,
+    84,
+    85
+   ]
+  },
+  "effect": {
+   "keyword": "WARD",
+   "n": 0,
+   "target": "self: shield to next turn"
+  },
+  "data": {
+   "d1": {
+    "table": "deck_cards",
+    "key": {
+     "deck": "deck-001",
+     "tile": 50
+    }
+   },
+   "local": {
+    "card_json": "cards-v5/card-050.json",
+    "wireframe": "wireframes-v5/card-050.svg"
+   }
+  }
+ },
+ "stats": {
+  "deck": {
+   "suit_count": 16,
+   "type_count": 11,
+   "type_share_pct": 11.0,
+   "chain_odds_pct": 19.4
+  },
+  "glow_range": {
+   "min": 1,
+   "max": 2,
+   "opponent_swing": 0
+  },
+  "sim": {
+   "games": 5000,
+   "seed": 1,
+   "comp_glow": 2,
+   "drawn": 1676,
+   "played": 995,
+   "play_rate_pct": 59.4,
+   "win_when_played_pct": 66.8,
+   "chained_pct": 3.0,
+   "avg_glow_when_played": 0.06,
+   "discarded": 150,
+   "interrupts_made": 965,
+   "times_interrupted": 0
+  }
+ },
+ "layout": {
+  "card_px": [
+   274,
+   400
+  ],
+  "inner_px": [
+   38,
+   44,
+   236,
+   364
+  ],
+  "zones": [
+   {
+    "zone": "top",
+    "label": "name / glow",
+    "y": 44,
+    "h": 22
+   },
+   {
+    "zone": "art",
+    "label": "art 150px",
+    "y": 66,
+    "h": 150
+   },
+   {
+    "zone": "mid",
+    "label": "type / suit",
+    "y": 216,
+    "h": 18
+   },
+   {
+    "zone": "txt",
+    "label": "rule text",
+    "y": 234,
+    "h": 34
+   },
+   {
+    "zone": "fl",
+    "label": "flavor",
+    "y": 268,
+    "h": 80
+   },
+   {
+    "zone": "id",
+    "label": "tile / licence",
+    "y": 348,
+    "h": 16
+   }
+  ]
+ },
+ "rights": {
+  "sale": "ok",
+  "marks": []
+ },
+ "status": {
+  "sealed": false
+ },
+ "resolution": {
+  "order": [
+   "legality",
+   "placement",
+   "interrupt",
+   "resolve",
+   "stop_time",
+   "score"
+  ],
+  "interruptible": true,
+  "can_interrupt": true,
+  "legality": "none"
+ },
+ "lexicon": [
+  "lexicon/interrupt.json",
+  "lexicon/pixel.json",
+  "lexicon/shade.json",
+  "lexicon/ward.json"
+ ]
+}

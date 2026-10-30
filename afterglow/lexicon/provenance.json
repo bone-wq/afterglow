@@ -1,0 +1,23 @@
+{
+ "id": "provenance",
+ "term": "Provenance",
+ "version": "v5",
+ "kind": "record",
+ "definition": "The append-only, hash-linked log of a game: every play, interrupt, resolve and score, each pointing to the hash of the record before it.",
+ "window": "Written as each event happens.",
+ "does": "Lets anyone re-check that the game followed the resolution order and replay it.",
+ "does_not": "Does not change play; a game is legal or not regardless of the log.",
+ "contrast": {
+  "line": "The Line shows the cards; provenance shows order, who interrupted what, and the score after each step.",
+  "resolution_order": "The order is the rule; provenance is the evidence."
+ },
+ "interacts": [
+  "play",
+  "interrupt",
+  "resolve"
+ ],
+ "precedence": null,
+ "source": "build_v5.py, provenance/",
+ "phase": null,
+ "cards": []
+}

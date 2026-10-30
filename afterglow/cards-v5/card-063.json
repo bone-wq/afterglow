@@ -1,0 +1,162 @@
+{
+ "id": {
+  "deck": "deck-001",
+  "tile": 63,
+  "name": "Sealed No. 63",
+  "sha256_16": "153597a319b1e080",
+  "version": "v5"
+ },
+ "play": {
+  "type": "Sealed",
+  "suit": "Void",
+  "glow": 1,
+  "effect": {
+   "keyword": "NONE",
+   "n": 0,
+   "target": "none",
+   "text": "Face down. Chains with nothing."
+  },
+  "flavor": "Held for the owner's decision.",
+  "in_line": true,
+  "timing": {
+   "key": "NORMAL",
+   "value": 0
+  },
+  "text": "Face down. Chains with nothing."
+ },
+ "connections": {
+  "chain_in": {
+   "rule": "none",
+   "count": 0,
+   "from_tiles": []
+  },
+  "chain_out": {
+   "rule": "none",
+   "count": 0,
+   "into_tiles": []
+  },
+  "effect": {
+   "keyword": "NONE",
+   "n": 0,
+   "target": "none"
+  },
+  "data": {
+   "d1": {
+    "table": "deck_cards",
+    "key": {
+     "deck": "deck-001",
+     "tile": 63
+    }
+   },
+   "local": {
+    "card_json": "cards-v5/card-063.json",
+    "wireframe": "wireframes-v5/card-063.svg"
+   }
+  }
+ },
+ "stats": {
+  "deck": {
+   "suit_count": 15,
+   "type_count": 14,
+   "type_share_pct": 14.0,
+   "chain_odds_pct": 0.0
+  },
+  "glow_range": {
+   "min": 1,
+   "max": 1,
+   "opponent_swing": 0
+  },
+  "sim": {
+   "games": 5000,
+   "seed": 1,
+   "comp_glow": 2,
+   "drawn": 1672,
+   "played": 0,
+   "play_rate_pct": 0.0,
+   "win_when_played_pct": null,
+   "chained_pct": null,
+   "avg_glow_when_played": null,
+   "discarded": 623,
+   "interrupts_made": 0,
+   "times_interrupted": 0
+  }
+ },
+ "layout": {
+  "card_px": [
+   274,
+   400
+  ],
+  "inner_px": [
+   38,
+   44,
+   236,
+   364
+  ],
+  "zones": [
+   {
+    "zone": "top",
+    "label": "name / glow",
+    "y": 44,
+    "h": 22
+   },
+   {
+    "zone": "art",
+    "label": "art 150px",
+    "y": 66,
+    "h": 150
+   },
+   {
+    "zone": "mid",
+    "label": "type / suit",
+    "y": 216,
+    "h": 18
+   },
+   {
+    "zone": "txt",
+    "label": "rule text",
+    "y": 234,
+    "h": 34
+   },
+   {
+    "zone": "fl",
+    "label": "flavor",
+    "y": 268,
+    "h": 80
+   },
+   {
+    "zone": "id",
+    "label": "tile / licence",
+    "y": 348,
+    "h": 16
+   }
+  ]
+ },
+ "rights": {
+  "sale": "licence needed",
+  "marks": [
+   "ip:Velma and Daphne-like"
+  ]
+ },
+ "status": {
+  "sealed": true
+ },
+ "resolution": {
+  "order": [
+   "legality",
+   "placement",
+   "interrupt",
+   "resolve",
+   "stop_time",
+   "score"
+  ],
+  "interruptible": true,
+  "can_interrupt": false,
+  "legality": "none"
+ },
+ "lexicon": [
+  "lexicon/glow.json",
+  "lexicon/normal.json",
+  "lexicon/sealed.json",
+  "lexicon/void.json"
+ ]
+}

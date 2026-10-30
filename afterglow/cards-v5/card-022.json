@@ -1,0 +1,202 @@
+{
+ "id": {
+  "deck": "deck-001",
+  "tile": 22,
+  "name": "Neon Club I",
+  "sha256_16": "a3e92dd4fc1a0042",
+  "version": "v5"
+ },
+ "play": {
+  "type": "Signal",
+  "suit": "Cel",
+  "glow": 1,
+  "effect": {
+   "keyword": "DRAW",
+   "n": 1,
+   "target": "self: hand",
+   "text": "Draw 1."
+  },
+  "flavor": "The sign speaks another script.",
+  "in_line": true,
+  "timing": {
+   "key": "STOP_TIME",
+   "value": 1
+  },
+  "text": "Draw 1. Stop Time 1: after this resolves, play 1 more card this turn."
+ },
+ "connections": {
+  "chain_in": {
+   "rule": "Cel or Wild",
+   "count": 20,
+   "from_tiles": [
+    8,
+    13,
+    24,
+    32,
+    34,
+    35,
+    37,
+    39,
+    43,
+    52,
+    55,
+    62,
+    72,
+    73,
+    75,
+    84,
+    89,
+    94,
+    95,
+    99
+   ]
+  },
+  "chain_out": {
+   "rule": "Cel or Wild",
+   "count": 20,
+   "into_tiles": [
+    8,
+    13,
+    24,
+    32,
+    34,
+    35,
+    37,
+    39,
+    43,
+    52,
+    55,
+    62,
+    72,
+    73,
+    75,
+    84,
+    89,
+    94,
+    95,
+    99
+   ]
+  },
+  "effect": {
+   "keyword": "DRAW",
+   "n": 1,
+   "target": "self: hand"
+  },
+  "data": {
+   "d1": {
+    "table": "deck_cards",
+    "key": {
+     "deck": "deck-001",
+     "tile": 22
+    }
+   },
+   "local": {
+    "card_json": "cards-v5/card-022.json",
+    "wireframe": "wireframes-v5/card-022.svg"
+   }
+  }
+ },
+ "stats": {
+  "deck": {
+   "suit_count": 16,
+   "type_count": 16,
+   "type_share_pct": 16.0,
+   "chain_odds_pct": 20.4
+  },
+  "glow_range": {
+   "min": 1,
+   "max": 2,
+   "opponent_swing": 0
+  },
+  "sim": {
+   "games": 5000,
+   "seed": 1,
+   "comp_glow": 2,
+   "drawn": 1643,
+   "played": 1196,
+   "play_rate_pct": 72.8,
+   "win_when_played_pct": 57.4,
+   "chained_pct": 21.1,
+   "avg_glow_when_played": 1.21,
+   "discarded": 75,
+   "interrupts_made": 0,
+   "times_interrupted": 493
+  }
+ },
+ "layout": {
+  "card_px": [
+   274,
+   400
+  ],
+  "inner_px": [
+   38,
+   44,
+   236,
+   364
+  ],
+  "zones": [
+   {
+    "zone": "top",
+    "label": "name / glow",
+    "y": 44,
+    "h": 22
+   },
+   {
+    "zone": "art",
+    "label": "art 150px",
+    "y": 66,
+    "h": 150
+   },
+   {
+    "zone": "mid",
+    "label": "type / suit",
+    "y": 216,
+    "h": 18
+   },
+   {
+    "zone": "txt",
+    "label": "rule text",
+    "y": 234,
+    "h": 34
+   },
+   {
+    "zone": "fl",
+    "label": "flavor",
+    "y": 268,
+    "h": 80
+   },
+   {
+    "zone": "id",
+    "label": "tile / licence",
+    "y": 348,
+    "h": 16
+   }
+  ]
+ },
+ "rights": {
+  "sale": "ok",
+  "marks": []
+ },
+ "status": {
+  "sealed": false
+ },
+ "resolution": {
+  "order": [
+   "legality",
+   "placement",
+   "interrupt",
+   "resolve",
+   "stop_time",
+   "score"
+  ],
+  "interruptible": true,
+  "can_interrupt": false,
+  "legality": "none"
+ },
+ "lexicon": [
+  "lexicon/cel.json",
+  "lexicon/draw.json",
+  "lexicon/signal.json",
+  "lexicon/stop_time.json"
+ ]
+}

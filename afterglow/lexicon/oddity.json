@@ -1,0 +1,32 @@
+{
+ "id": "oddity",
+ "term": "Oddity",
+ "version": "v5",
+ "kind": "type",
+ "definition": "Oddity: effect wild, timing unique.",
+ "window": "See its keyword and timing.",
+ "does": "Groups cards by first motif.",
+ "does_not": "Type is not suit; a type spans suits.",
+ "contrast": {
+  "timing": "Type is the effect family; timing is when it acts."
+ },
+ "interacts": [
+  "wild",
+  "unique"
+ ],
+ "precedence": null,
+ "source": "rules.TYPE_OF_MOTIF",
+ "phase": null,
+ "cards": [
+  13,
+  37,
+  52,
+  75,
+  84
+ ],
+ "sim": {
+  "cards": 5,
+  "played": 2368,
+  "play_rate_pct": 28.6
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "id": "dim",
+ "term": "Dim",
+ "version": "v5",
+ "kind": "keyword",
+ "definition": "DIM n (Tide): the opponent loses n Glow (not below 0).",
+ "window": "On resolve.",
+ "does": "Lowers the opponent's Glow.",
+ "does_not": "Does nothing if the opponent is Warded, or if it is Cancelled.",
+ "contrast": {
+  "cancel": "Dim hits Glow; Cancel hits an effect.",
+  "ward": "Ward is Dim's counter."
+ },
+ "interacts": [
+  "ward",
+  "interrupt"
+ ],
+ "precedence": 4,
+ "source": "simulate_v5.put",
+ "phase": "resolve",
+ "cards": [
+  20,
+  29,
+  35,
+  44,
+  45,
+  56,
+  57,
+  59,
+  68,
+  73
+ ],
+ "sim": {
+  "cards": 10,
+  "played": 5521,
+  "play_rate_pct": 33.6
+ }
+}

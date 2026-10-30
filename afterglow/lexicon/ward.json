@@ -1,0 +1,39 @@
+{
+ "id": "ward",
+ "term": "Ward",
+ "version": "v5",
+ "kind": "keyword",
+ "definition": "WARD (Shade): you cannot be Dimmed until your next turn starts.",
+ "window": "From resolve (or interrupt) to the start of your next turn.",
+ "does": "Blocks Dim.",
+ "does_not": "Does not block Interrupt, Boost, Draw, or anything but Dim. Passive: needs no action.",
+ "contrast": {
+  "interrupt": "Ward is passive and blocks only Dim; Interrupt is an action that cancels any one effect.",
+  "unstoppable": "Ward protects your Glow; Unstoppable protects a card's effect."
+ },
+ "interacts": [
+  "dim",
+  "interrupt"
+ ],
+ "precedence": 4,
+ "source": "simulate_v5.put",
+ "phase": "resolve",
+ "cards": [
+  17,
+  18,
+  26,
+  33,
+  50,
+  51,
+  70,
+  77,
+  88,
+  90,
+  92
+ ],
+ "sim": {
+  "cards": 11,
+  "played": 10889,
+  "play_rate_pct": 59.7
+ }
+}

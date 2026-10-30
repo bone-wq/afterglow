@@ -1,0 +1,21 @@
+{
+ "id": "discard",
+ "term": "Discard",
+ "version": "v5",
+ "kind": "procedure",
+ "definition": "At the end of your turn, drop cards until you hold 7.",
+ "window": "End of your own turn only.",
+ "does": "Removes cards from the game.",
+ "does_not": "Is not a play: no Glow, no effect, no provenance play event.",
+ "contrast": {
+  "cancel": "Cancel stops an effect of a played card; discard drops an unplayed card.",
+  "line": "A discarded card never reaches the Line."
+ },
+ "interacts": [
+  "hand"
+ ],
+ "precedence": null,
+ "source": "game.md, Turn 2",
+ "phase": null,
+ "cards": []
+}

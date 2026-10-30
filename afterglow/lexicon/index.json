@@ -1,0 +1,173 @@
+{
+ "version": "v5",
+ "resolution_order": [
+  "legality",
+  "placement",
+  "interrupt",
+  "resolve",
+  "stop_time",
+  "score"
+ ],
+ "terms": {
+  "boost": {
+   "kind": "keyword",
+   "definition": "BOOST n (Myth): gain n extra Glow."
+  },
+  "cancel": {
+   "kind": "result",
+   "definition": "An Interrupt's result: the target card's effect does not happen."
+  },
+  "cel": {
+   "kind": "suit",
+   "definition": "Cel suit: cards whose art style is anime."
+  },
+  "chain": {
+   "kind": "rule",
+   "definition": "A card chains if its suit matches the last card in your Line, or either is Wild."
+  },
+  "chain_bonus": {
+   "kind": "reward",
+   "definition": "+1 Glow when a card chains (Muse: +2)."
+  },
+  "chain_keyword": {
+   "kind": "keyword",
+   "definition": "CHAIN n (Muse): if this chains, the bonus is +n instead of +1."
+  },
+  "dim": {
+   "kind": "keyword",
+   "definition": "DIM n (Tide): the opponent loses n Glow (not below 0)."
+  },
+  "discard": {
+   "kind": "procedure",
+   "definition": "At the end of your turn, drop cards until you hold 7."
+  },
+  "draw": {
+   "kind": "keyword",
+   "definition": "DRAW n (Signal): draw n cards."
+  },
+  "first_light": {
+   "kind": "marker",
+   "definition": "Tile 41. Not shuffled in; its holder goes first and the other player starts with 2 Glow."
+  },
+  "glow": {
+   "kind": "resource",
+   "definition": "Points. First to 21 Glow wins."
+  },
+  "hand": {
+   "kind": "zone",
+   "definition": "Cards you hold. Start with 5, draw 2 per turn, keep at most 7."
+  },
+  "ink": {
+   "kind": "suit",
+   "definition": "Ink suit: cards whose art style is cartoon or sketch."
+  },
+  "interrupt": {
+   "kind": "timing",
+   "definition": "INTERRUPT n (Shade): when the opponent plays a card, play this from your hand at once to cancel that card's effect."
+  },
+  "line": {
+   "kind": "zone",
+   "definition": "Your row of played cards, in the order played."
+  },
+  "muse": {
+   "kind": "type",
+   "definition": "Muse: effect chain_keyword, timing normal."
+  },
+  "myth": {
+   "kind": "type",
+   "definition": "Myth: effect boost, timing unstoppable."
+  },
+  "normal": {
+   "kind": "timing",
+   "definition": "NORMAL: no timing rule. Played on your turn, can be interrupted."
+  },
+  "oddity": {
+   "kind": "type",
+   "definition": "Oddity: effect wild, timing unique."
+  },
+  "photo": {
+   "kind": "suit",
+   "definition": "Photo suit: cards whose art style is photoreal."
+  },
+  "pixel": {
+   "kind": "suit",
+   "definition": "Pixel suit: cards whose art style is digital, 3d, pixel, abstract, graphic, neon."
+  },
+  "play": {
+   "kind": "procedure",
+   "definition": "Put one card from your hand onto the end of your Line."
+  },
+  "provenance": {
+   "kind": "record",
+   "definition": "The append-only, hash-linked log of a game: every play, interrupt, resolve and score, each pointing to the hash of the record before it."
+  },
+  "resolution_order": {
+   "kind": "rule",
+   "definition": "The fixed order a play is processed in: legality > placement > interrupt > resolve > stop_time > score."
+  },
+  "resolve": {
+   "kind": "procedure",
+   "definition": "Apply a played card: its Glow, its chain bonus, then its effect."
+  },
+  "sealed": {
+   "kind": "type",
+   "definition": "A card for a held tile. Face down, 1 Glow, no effect, Void, Normal timing."
+  },
+  "shade": {
+   "kind": "type",
+   "definition": "Shade: effect ward, timing interrupt."
+  },
+  "signal": {
+   "kind": "type",
+   "definition": "Signal: effect draw, timing stop_time."
+  },
+  "stop_time": {
+   "kind": "timing",
+   "definition": "STOP TIME n (Signal): after this resolves, play n more cards this turn."
+  },
+  "suit": {
+   "kind": "category",
+   "definition": "Which art style family a card belongs to: Photo, Ink, Cel, Pixel, or Void."
+  },
+  "tide": {
+   "kind": "type",
+   "definition": "Tide: effect dim, timing normal."
+  },
+  "timing": {
+   "kind": "category",
+   "definition": "When and how a card can act: NORMAL, INTERRUPT, STOP_TIME, UNSTOPPABLE or UNIQUE, each with a value."
+  },
+  "turn": {
+   "kind": "procedure",
+   "definition": "Draw 2, play 1 (more with Stop Time), discard to 7. Your Ward ends at the start of your turn."
+  },
+  "type": {
+   "kind": "category",
+   "definition": "What a card does: Muse, Signal, Myth, Shade, Tide, Oddity, Sealed or Marker. Set by the tile's first motif."
+  },
+  "unique": {
+   "kind": "timing",
+   "definition": "UNIQUE (Oddity, First Light): at most one Unique card in your Line. First Light is one per game."
+  },
+  "unstoppable": {
+   "kind": "timing",
+   "definition": "UNSTOPPABLE (Myth): this card cannot be interrupted."
+  },
+  "void": {
+   "kind": "suit",
+   "definition": "The suit of Sealed cards and First Light. Chains with nothing."
+  },
+  "ward": {
+   "kind": "keyword",
+   "definition": "WARD (Shade): you cannot be Dimmed until your next turn starts."
+  },
+  "wild": {
+   "kind": "keyword",
+   "definition": "WILD (Oddity): chains with any suit, before or after it."
+  },
+  "win": {
+   "kind": "rule",
+   "definition": "Reach 21 Glow. If the deck and both hands are empty, higher Glow wins."
+  }
+ }
+}

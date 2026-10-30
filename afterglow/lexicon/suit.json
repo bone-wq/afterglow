@@ -1,0 +1,22 @@
+{
+ "id": "suit",
+ "term": "Suit",
+ "version": "v5",
+ "kind": "category",
+ "definition": "Which art style family a card belongs to: Photo, Ink, Cel, Pixel, or Void.",
+ "window": "Chain checks.",
+ "does": "Decides chaining.",
+ "does_not": "Has no effect or timing of its own.",
+ "contrast": {
+  "type": "Suit decides chaining; type decides the effect."
+ },
+ "interacts": [
+  "chain",
+  "wild",
+  "void"
+ ],
+ "precedence": null,
+ "source": "rules.SUIT_OF_STYLE",
+ "phase": null,
+ "cards": []
+}

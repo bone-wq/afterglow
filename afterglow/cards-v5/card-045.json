@@ -1,0 +1,200 @@
+{
+ "id": {
+  "deck": "deck-001",
+  "tile": 45,
+  "name": "Dusk Tendril",
+  "sha256_16": "9acf594ac1a0ed7f",
+  "version": "v5"
+ },
+ "play": {
+  "type": "Tide",
+  "suit": "Ink",
+  "glow": 1,
+  "effect": {
+   "keyword": "DIM",
+   "n": 2,
+   "target": "opponent: -Glow",
+   "text": "Your opponent loses 2 Glow (unless warded)."
+  },
+  "flavor": "The city lights come on.",
+  "in_line": true,
+  "timing": {
+   "key": "NORMAL",
+   "value": 0
+  },
+  "text": "Your opponent loses 2 Glow (unless warded)."
+ },
+ "connections": {
+  "chain_in": {
+   "rule": "Ink or Wild",
+   "count": 19,
+   "from_tiles": [
+    2,
+    13,
+    14,
+    19,
+    23,
+    25,
+    28,
+    37,
+    46,
+    49,
+    52,
+    65,
+    70,
+    71,
+    75,
+    76,
+    77,
+    84,
+    93
+   ]
+  },
+  "chain_out": {
+   "rule": "Ink or Wild",
+   "count": 19,
+   "into_tiles": [
+    2,
+    13,
+    14,
+    19,
+    23,
+    25,
+    28,
+    37,
+    46,
+    49,
+    52,
+    65,
+    70,
+    71,
+    75,
+    76,
+    77,
+    84,
+    93
+   ]
+  },
+  "effect": {
+   "keyword": "DIM",
+   "n": 2,
+   "target": "opponent: -Glow"
+  },
+  "data": {
+   "d1": {
+    "table": "deck_cards",
+    "key": {
+     "deck": "deck-001",
+     "tile": 45
+    }
+   },
+   "local": {
+    "card_json": "cards-v5/card-045.json",
+    "wireframe": "wireframes-v5/card-045.svg"
+   }
+  }
+ },
+ "stats": {
+  "deck": {
+   "suit_count": 19,
+   "type_count": 10,
+   "type_share_pct": 10.0,
+   "chain_odds_pct": 19.4
+  },
+  "glow_range": {
+   "min": 1,
+   "max": 2,
+   "opponent_swing": 2
+  },
+  "sim": {
+   "games": 5000,
+   "seed": 1,
+   "comp_glow": 2,
+   "drawn": 1628,
+   "played": 391,
+   "play_rate_pct": 24.0,
+   "win_when_played_pct": 46.3,
+   "chained_pct": 67.0,
+   "avg_glow_when_played": 1.67,
+   "discarded": 389,
+   "interrupts_made": 0,
+   "times_interrupted": 173
+  }
+ },
+ "layout": {
+  "card_px": [
+   274,
+   400
+  ],
+  "inner_px": [
+   38,
+   44,
+   236,
+   364
+  ],
+  "zones": [
+   {
+    "zone": "top",
+    "label": "name / glow",
+    "y": 44,
+    "h": 22
+   },
+   {
+    "zone": "art",
+    "label": "art 150px",
+    "y": 66,
+    "h": 150
+   },
+   {
+    "zone": "mid",
+    "label": "type / suit",
+    "y": 216,
+    "h": 18
+   },
+   {
+    "zone": "txt",
+    "label": "rule text",
+    "y": 234,
+    "h": 34
+   },
+   {
+    "zone": "fl",
+    "label": "flavor",
+    "y": 268,
+    "h": 80
+   },
+   {
+    "zone": "id",
+    "label": "tile / licence",
+    "y": 348,
+    "h": 16
+   }
+  ]
+ },
+ "rights": {
+  "sale": "ok",
+  "marks": []
+ },
+ "status": {
+  "sealed": false
+ },
+ "resolution": {
+  "order": [
+   "legality",
+   "placement",
+   "interrupt",
+   "resolve",
+   "stop_time",
+   "score"
+  ],
+  "interruptible": true,
+  "can_interrupt": false,
+  "legality": "none"
+ },
+ "lexicon": [
+  "lexicon/dim.json",
+  "lexicon/ink.json",
+  "lexicon/normal.json",
+  "lexicon/tide.json"
+ ]
+}

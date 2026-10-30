@@ -1,0 +1,46 @@
+{
+ "id": "glow",
+ "term": "Glow",
+ "version": "v5",
+ "kind": "resource",
+ "definition": "Points. First to 21 Glow wins.",
+ "window": "Gained when a card resolves; lost only to Dim.",
+ "does": "Counts toward the win.",
+ "does_not": "Is never spent or paid.",
+ "contrast": {
+  "boost": "Boost is extra Glow from one card; Glow is the running total.",
+  "dim": "Dim removes Glow from the opponent; nothing removes your own Glow otherwise."
+ },
+ "interacts": [
+  "chain_bonus",
+  "boost",
+  "dim",
+  "ward",
+  "win"
+ ],
+ "precedence": null,
+ "source": "game.md, Turn 3-4",
+ "phase": null,
+ "cards": [
+  4,
+  27,
+  31,
+  41,
+  47,
+  63,
+  64,
+  74,
+  78,
+  79,
+  83,
+  86,
+  87,
+  91,
+  98
+ ],
+ "sim": {
+  "cards": 15,
+  "played": 1,
+  "play_rate_pct": 0.0
+ }
+}

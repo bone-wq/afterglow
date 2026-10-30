@@ -1,0 +1,200 @@
+{
+ "id": {
+  "deck": "deck-001",
+  "tile": 42,
+  "name": "Castle Pixel",
+  "sha256_16": "b12d75d2a226d713",
+  "version": "v5"
+ },
+ "play": {
+  "type": "Myth",
+  "suit": "Pixel",
+  "glow": 1,
+  "effect": {
+   "keyword": "BOOST",
+   "n": 2,
+   "target": "self: +Glow",
+   "text": "Gain 2 extra Glow."
+  },
+  "flavor": "A gown for the town square.",
+  "in_line": true,
+  "timing": {
+   "key": "UNSTOPPABLE",
+   "value": 1
+  },
+  "text": "Gain 2 extra Glow. Unstoppable: cannot be interrupted."
+ },
+ "connections": {
+  "chain_in": {
+   "rule": "Pixel or Wild",
+   "count": 19,
+   "from_tiles": [
+    6,
+    9,
+    10,
+    13,
+    18,
+    26,
+    30,
+    36,
+    37,
+    48,
+    50,
+    51,
+    52,
+    57,
+    59,
+    66,
+    75,
+    84,
+    85
+   ]
+  },
+  "chain_out": {
+   "rule": "Pixel or Wild",
+   "count": 19,
+   "into_tiles": [
+    6,
+    9,
+    10,
+    13,
+    18,
+    26,
+    30,
+    36,
+    37,
+    48,
+    50,
+    51,
+    52,
+    57,
+    59,
+    66,
+    75,
+    84,
+    85
+   ]
+  },
+  "effect": {
+   "keyword": "BOOST",
+   "n": 2,
+   "target": "self: +Glow"
+  },
+  "data": {
+   "d1": {
+    "table": "deck_cards",
+    "key": {
+     "deck": "deck-001",
+     "tile": 42
+    }
+   },
+   "local": {
+    "card_json": "cards-v5/card-042.json",
+    "wireframe": "wireframes-v5/card-042.svg"
+   }
+  }
+ },
+ "stats": {
+  "deck": {
+   "suit_count": 16,
+   "type_count": 13,
+   "type_share_pct": 13.0,
+   "chain_odds_pct": 19.4
+  },
+  "glow_range": {
+   "min": 3,
+   "max": 4,
+   "opponent_swing": 0
+  },
+  "sim": {
+   "games": 5000,
+   "seed": 1,
+   "comp_glow": 2,
+   "drawn": 1674,
+   "played": 882,
+   "play_rate_pct": 52.7,
+   "win_when_played_pct": 56.6,
+   "chained_pct": 68.5,
+   "avg_glow_when_played": 3.68,
+   "discarded": 212,
+   "interrupts_made": 0,
+   "times_interrupted": 0
+  }
+ },
+ "layout": {
+  "card_px": [
+   274,
+   400
+  ],
+  "inner_px": [
+   38,
+   44,
+   236,
+   364
+  ],
+  "zones": [
+   {
+    "zone": "top",
+    "label": "name / glow",
+    "y": 44,
+    "h": 22
+   },
+   {
+    "zone": "art",
+    "label": "art 150px",
+    "y": 66,
+    "h": 150
+   },
+   {
+    "zone": "mid",
+    "label": "type / suit",
+    "y": 216,
+    "h": 18
+   },
+   {
+    "zone": "txt",
+    "label": "rule text",
+    "y": 234,
+    "h": 34
+   },
+   {
+    "zone": "fl",
+    "label": "flavor",
+    "y": 268,
+    "h": 80
+   },
+   {
+    "zone": "id",
+    "label": "tile / licence",
+    "y": 348,
+    "h": 16
+   }
+  ]
+ },
+ "rights": {
+  "sale": "ok",
+  "marks": []
+ },
+ "status": {
+  "sealed": false
+ },
+ "resolution": {
+  "order": [
+   "legality",
+   "placement",
+   "interrupt",
+   "resolve",
+   "stop_time",
+   "score"
+  ],
+  "interruptible": false,
+  "can_interrupt": false,
+  "legality": "none"
+ },
+ "lexicon": [
+  "lexicon/boost.json",
+  "lexicon/myth.json",
+  "lexicon/pixel.json",
+  "lexicon/unstoppable.json"
+ ]
+}

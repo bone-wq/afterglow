@@ -1,0 +1,22 @@
+{
+ "deck": "afterglow-deck-001",
+ "id": "canon-001",
+ "asset_name": "AnyaBear",
+ "type": "dog",
+ "breed": {
+  "value": "pitbull",
+  "maybe": [
+   "lab",
+   "rot"
+  ],
+  "confirmed": false
+ },
+ "standing": "mysterious canon",
+ "card": null,
+ "lore": "Nobody in the city agrees on what AnyaBear is. Pitbull, says one Line; lab, says another; rot, says a third. Everyone agrees on the paw prints: they turn up in wet cement, fresh, on streets that were poured years ago. AnyaBear has no card and is never played. She is only ever seen in the afterglow.",
+ "rules_effect": null,
+ "owner_words": "//||-(asset-name)= type --> dog-pitbull-maybe-lab-rot --- (AnyaBear) put this as lore or mysterious canon lol",
+ "added": "2026-10-30",
+ "prev": "0000000000000000000000000000000000000000000000000000000000000000",
+ "hash": "bd32d749989502a7756a2a66d9cf751002557b5c0951f81cb3d5b896ea161520"
+}

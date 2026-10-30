@@ -1,0 +1,23 @@
+{
+ "id": "resolve",
+ "term": "Resolve",
+ "version": "v5",
+ "kind": "procedure",
+ "definition": "Apply a played card: its Glow, its chain bonus, then its effect.",
+ "window": "After any Interrupt on that card has resolved.",
+ "does": "Changes Glow, hands and wards.",
+ "does_not": "Never removes a card from a Line.",
+ "contrast": {
+  "play": "Play can happen without a full resolve: an interrupted card resolves without its effect.",
+  "cancel": "A cancelled card still resolves its own Glow and +1 chain bonus."
+ },
+ "interacts": [
+  "interrupt",
+  "cancel",
+  "chain_bonus"
+ ],
+ "precedence": 4,
+ "source": "simulate_v5.py, put()",
+ "phase": "resolve",
+ "cards": []
+}

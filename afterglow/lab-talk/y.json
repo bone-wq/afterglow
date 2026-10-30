@@ -1,0 +1,12 @@
+{
+ "id": "y",
+ "mark": "y",
+ "kind": "variable",
+ "definition": "Affinity for stuff: what an entity is drawn to. It may be a pun on 'why'.",
+ "source": "owner: 'in this situation y would equal affinity for stuff'",
+ "basis": "owner's definition; the pun is Claude's guess",
+ "contrast": {
+  "type-arrow": "x = what it is, y = what it's drawn to."
+ },
+ "added": "2026-10-30"
+}

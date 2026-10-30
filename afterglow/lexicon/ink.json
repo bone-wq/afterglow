@@ -1,0 +1,48 @@
+{
+ "id": "ink",
+ "term": "Ink",
+ "version": "v5",
+ "kind": "suit",
+ "definition": "Ink suit: cards whose art style is cartoon or sketch.",
+ "window": "Chain checks.",
+ "does": "Chains with the same suit and with Wild.",
+ "does_not": "A suit has no effect of its own.",
+ "contrast": {
+  "photo": "Different suit: they do not chain unless one is Wild.",
+  "cel": "Different suit: they do not chain unless one is Wild.",
+  "pixel": "Different suit: they do not chain unless one is Wild."
+ },
+ "interacts": [
+  "chain",
+  "wild"
+ ],
+ "precedence": null,
+ "source": "rules.SUIT_OF_STYLE",
+ "phase": null,
+ "cards": [
+  2,
+  13,
+  14,
+  19,
+  23,
+  25,
+  28,
+  37,
+  45,
+  46,
+  49,
+  52,
+  65,
+  70,
+  71,
+  75,
+  76,
+  77,
+  93
+ ],
+ "sim": {
+  "cards": 19,
+  "played": 12216,
+  "play_rate_pct": 38.5
+ }
+}

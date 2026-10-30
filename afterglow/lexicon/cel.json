@@ -1,0 +1,45 @@
+{
+ "id": "cel",
+ "term": "Cel",
+ "version": "v5",
+ "kind": "suit",
+ "definition": "Cel suit: cards whose art style is anime.",
+ "window": "Chain checks.",
+ "does": "Chains with the same suit and with Wild.",
+ "does_not": "A suit has no effect of its own.",
+ "contrast": {
+  "photo": "Different suit: they do not chain unless one is Wild.",
+  "ink": "Different suit: they do not chain unless one is Wild.",
+  "pixel": "Different suit: they do not chain unless one is Wild."
+ },
+ "interacts": [
+  "chain",
+  "wild"
+ ],
+ "precedence": null,
+ "source": "rules.SUIT_OF_STYLE",
+ "phase": null,
+ "cards": [
+  8,
+  22,
+  24,
+  32,
+  34,
+  35,
+  39,
+  43,
+  55,
+  62,
+  72,
+  73,
+  89,
+  94,
+  95,
+  99
+ ],
+ "sim": {
+  "cards": 16,
+  "played": 11767,
+  "play_rate_pct": 44.6
+ }
+}

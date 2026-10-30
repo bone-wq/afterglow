@@ -1,0 +1,45 @@
+{
+ "id": "pixel",
+ "term": "Pixel",
+ "version": "v5",
+ "kind": "suit",
+ "definition": "Pixel suit: cards whose art style is digital, 3d, pixel, abstract, graphic, neon.",
+ "window": "Chain checks.",
+ "does": "Chains with the same suit and with Wild.",
+ "does_not": "A suit has no effect of its own.",
+ "contrast": {
+  "photo": "Different suit: they do not chain unless one is Wild.",
+  "ink": "Different suit: they do not chain unless one is Wild.",
+  "cel": "Different suit: they do not chain unless one is Wild."
+ },
+ "interacts": [
+  "chain",
+  "wild"
+ ],
+ "precedence": null,
+ "source": "rules.SUIT_OF_STYLE",
+ "phase": null,
+ "cards": [
+  6,
+  9,
+  10,
+  18,
+  26,
+  30,
+  36,
+  42,
+  48,
+  50,
+  51,
+  57,
+  59,
+  66,
+  84,
+  85
+ ],
+ "sim": {
+  "cards": 16,
+  "played": 15372,
+  "play_rate_pct": 58.1
+ }
+}

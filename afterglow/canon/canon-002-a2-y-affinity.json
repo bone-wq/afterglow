@@ -1,0 +1,17 @@
+{
+ "deck": "afterglow-deck-001",
+ "id": "canon-002-a2",
+ "amends": "canon-002",
+ "decided_by": "owner",
+ "on_record": true,
+ "owner_words": "in this situation y would equal affinity for stuff",
+ "defines": {
+  "y": "affinity for stuff"
+ },
+ "reading": "Claude's reading, not the owner's words: y is the axis of what an entity has an affinity for. It applies to canon-002 here.",
+ "y": null,
+ "y_status": "to be filled from the owner's image or the owner's own words",
+ "at": "2026-10-30",
+ "prev": "5475d5c143c84fbdef704fe440ae58dd0040315946b07d6cc9db9a978bce7222",
+ "hash": "ec4ec5de6f75714ab806d63ff1f3218c98371682f359b9d66ed6583e2c40d466"
+}

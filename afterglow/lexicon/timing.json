@@ -1,0 +1,24 @@
+{
+ "id": "timing",
+ "term": "Timing",
+ "version": "v5",
+ "kind": "category",
+ "definition": "When and how a card can act: NORMAL, INTERRUPT, STOP_TIME, UNSTOPPABLE or UNIQUE, each with a value.",
+ "window": "See each key.",
+ "does": "Sets a card's place in the resolution order.",
+ "does_not": "Is not a suit or a type.",
+ "contrast": {
+  "type": "Type says what a card does; Timing says when, and whether it can be stopped."
+ },
+ "interacts": [
+  "interrupt",
+  "stop_time",
+  "unstoppable",
+  "unique",
+  "normal"
+ ],
+ "precedence": null,
+ "source": "simulate_v5.py docstring",
+ "phase": null,
+ "cards": []
+}

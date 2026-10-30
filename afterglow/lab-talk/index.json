@@ -1,0 +1,56 @@
+{
+ "glossary": "lab-talk",
+ "terms": 10,
+ "items": [
+  {
+   "id": "record-open",
+   "mark": "//||-",
+   "basis": "Claude's reading"
+  },
+  {
+   "id": "asset-name",
+   "mark": "(asset-name)=",
+   "basis": "Claude's reading"
+  },
+  {
+   "id": "type-arrow",
+   "mark": "type -->",
+   "basis": "Claude's reading"
+  },
+  {
+   "id": "maybe",
+   "mark": "-maybe-",
+   "basis": "Claude's reading"
+  },
+  {
+   "id": "separator",
+   "mark": "---",
+   "basis": "Claude's reading"
+  },
+  {
+   "id": "y",
+   "mark": "y",
+   "basis": "owner's definition; the pun is Claude's guess"
+  },
+  {
+   "id": "xx-yy-zz",
+   "mark": "xx-yy-zz",
+   "basis": "Claude's reading; z undefined"
+  },
+  {
+   "id": "on-record",
+   "mark": "on record",
+   "basis": "owner's words"
+  },
+  {
+   "id": "append",
+   "mark": "append",
+   "basis": "owner's words"
+  },
+  {
+   "id": "lab-talk",
+   "mark": "lab talk",
+   "basis": "owner's words"
+  }
+ ]
+}
