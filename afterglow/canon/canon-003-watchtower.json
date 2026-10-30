@@ -1,0 +1,36 @@
+{
+ "deck": "afterglow-deck-001",
+ "id": "canon-003",
+ "asset_name": "The Watchtower",
+ "type": "place",
+ "standing": "canon, written by Claude at the owner's request",
+ "card": null,
+ "lore": "At the edge of the city stands a tower that never sleeps. It was raised on the owner's words, 'we need a memalloc watch tower', and from its top a keeper looks over the Lake. Thirty-eight times the Lake has looked empty from the tower. Twenty-nine of those times the keeper walked down to the shore and called the newest thing by name, and every time it answered. Nothing was lost; only the count of it was. The keeper writes every change in a chain that cannot be rewritten, and keeps one more rule: if the tower itself goes quiet for twelve minutes, the alarm sounds, because silence is not the same as safety. The ledger has no entry for a dog. That is how the keeper knows she was there.",
+ "facts": {
+  "basis": "the session's own logs and hash-linked event chain, 2026-10-29 to 2026-10-30",
+  "lake_read_empty": 38,
+  "rechecked_after_second_check_added": 29,
+  "rechecked_readable": 29,
+  "rechecked_missing": 0,
+  "events_in_chain_at_writing": 318,
+  "watch_stall_alarms": 0
+ },
+ "rating": {
+  "value": "varsity-squad-session",
+  "by": "owner"
+ },
+ "rules_effect": null,
+ "owner_words": [
+  "we need a memalloc watch tower",
+  "the inter task logic please watch",
+  "record everything please",
+  "rate this session as \"varsity-squad-session\"",
+  "(thats high praise)",
+  "lots of watching and data needed and in =)",
+  "tytyty, will you look at the logs and format them for spss and sheets, also make lore for however much of the session you have =)"
+ ],
+ "reading": "Claude's reading, not the owner's words: the tower is the session itself. The Lake is the watched store, the keeper's walk to the shore is the second check, and the missing dog line reads canon-001 ('only ever seen in the afterglow') as absence on the record.",
+ "added": "2026-10-30",
+ "prev": "1086a507aaf4cbf474f8f820c66aba9d2bd9dd778db5735337f1b66b4a0c8f33",
+ "hash": "938342ebf738159b60780e0564a154cf1d619ca67a0caa6e3f609f3202dc92f6"
+}
