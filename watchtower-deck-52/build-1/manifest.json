@@ -1,0 +1,19 @@
+{
+  "readback": {
+    "json": 52,
+    "csv": 52,
+    "xlsx": 52,
+    "sav": 52,
+    "sqlite": 52,
+    "sql_script": 52
+  },
+  "text_identical": true,
+  "files": {
+    "watchtower-deck-52.csv": "cd45b831470a8890a29742120caed731884e436f257406591f9dc491cc235798",
+    "watchtower-deck-52.db": "f03c89e32ef811eaa1ea52413a264a733227caed9df426a161de3475e003d3a0",
+    "watchtower-deck-52.json": "084048f952edbdd588066d3a528a5fd91637de66435ae078bab67bffed51d41b",
+    "watchtower-deck-52.sav": "8984d1a36bccdf6f6eb588992538c1b36b18f4bd14ffc235614b60a5a7a965b6",
+    "watchtower-deck-52.sql": "0e0a2c39b4d933019ecafab3c46aab25b60abe8d3bc4a520bd1d911749281f81",
+    "watchtower-deck-52.xlsx": "8e2471a521dcf88e25ec24278f8f2b3b831fc39df99393f9ce6b650925f0c02f"
+  }
+}
